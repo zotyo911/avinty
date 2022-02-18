@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: '4.0.0', revision: '3a21814679'\nSystem info: host: 'fv-az74-115', ip: '10.1.0.59', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1028-azure', java.version: '1.8.0_322'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --disable-dev-shm-usage], extensions: []}}}]",
+      "children" : [ {
+        "name" : "goToLandingPage()",
+        "uid" : "87a296158424787f",
+        "parentUid" : "ebec376452af39bbc8c23bb52e817e3d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645221183035,
+          "stop" : 1645221186790,
+          "duration" : 3755
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ebec376452af39bbc8c23bb52e817e3d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
