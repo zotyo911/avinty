@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.BaseTest",
+    "children" : [ {
+      "name" : "goToLandingPage",
+      "uid" : "6fe4cd58f17987df",
+      "parentUid" : "52abe7f30a773130b77f8333ed037813",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645220493289,
+        "stop" : 1645220497271,
+        "duration" : 3982
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.BaseTest"
+  } ],
+  "name" : "packages"
+}

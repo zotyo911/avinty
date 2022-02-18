@@ -1,0 +1,11 @@
+[ {
+  "uid" : "6fe4cd58f17987df",
+  "name" : "goToLandingPage()",
+  "time" : {
+    "start" : 1645220493289,
+    "stop" : 1645220497271,
+    "duration" : 3982
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
