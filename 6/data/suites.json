@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "tests.BasePageTest",
+    "children" : [ {
+      "name" : "goToLandingPage()",
+      "uid" : "1d61a8689c693ac0",
+      "parentUid" : "d4017c89629b121048645ffacbc3adea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645222266544,
+        "stop" : 1645222270480,
+        "duration" : 3936
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d4017c89629b121048645ffacbc3adea"
+  } ],
+  "name" : "suites"
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az135-573",
+    "children" : [ {
+      "name" : "2770@fv-az135-573.ForkJoinPool-1-worker-1(12)",
+      "children" : [ {
+        "name" : "goToLandingPage()",
+        "uid" : "1d61a8689c693ac0",
+        "parentUid" : "bc3cb9ca0d18ff77b46773daa218492a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645222266544,
+          "stop" : 1645222270480,
+          "duration" : 3936
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bc3cb9ca0d18ff77b46773daa218492a"
+    } ],
+    "uid" : "a155c11fc18aeac7f11791e1c1e06faf"
+  } ],
+  "name" : "timeline"
+}
