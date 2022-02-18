@@ -19,7 +19,6 @@ public class BaseTest {
 
     protected WebDriver driver;
     protected WebDriverWait wait;
-    BasePage basePage;
 
     @BeforeEach
     public void SetDriver() {
@@ -32,14 +31,6 @@ public class BaseTest {
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
-    }
-
-    @Test
-    public void goToLandingPage() {
-        basePage = new BasePage(driver);
-        basePage.navigateTo(Constraints.URL);
-
-        Assertions.assertTrue(driver.findElement(By.xpath("//*[contains(text(), 'patients')]")).isDisplayed());
     }
 
     @AfterEach
