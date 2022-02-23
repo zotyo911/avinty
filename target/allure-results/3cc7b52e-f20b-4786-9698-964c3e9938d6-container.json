@@ -1,0 +1,1 @@
+{"uuid":"3cc7b52e-f20b-4786-9698-964c3e9938d6","name":"AVINTY-002 Delete patient who has no relatives","children":["15835431-48d3-42cb-a4bd-74f0623b1769"],"befores":[{"name":"SetDriver","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1645559859829,"stop":1645559905942}],"afters":[],"links":[],"start":1645559859719,"stop":1645559932678}

@@ -1,0 +1,1 @@
+{"uuid":"0f8ace93-15ba-4ad8-8283-4b92481c4dde","name":"clickingOnPatientName()","children":["726fb031-db04-4bcd-8319-673763748a32"],"befores":[{"name":"SetDriver","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1645477582390,"stop":1645477584678}],"afters":[],"links":[],"start":1645477582296,"stop":1645477588584}

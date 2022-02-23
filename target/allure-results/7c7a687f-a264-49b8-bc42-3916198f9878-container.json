@@ -1,0 +1,1 @@
+{"uuid":"7c7a687f-a264-49b8-bc42-3916198f9878","name":"Validate relative's table column names","children":["30d51f06-fc45-417a-8830-ec51e3a6d814"],"befores":[{"name":"SetDriver","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1645563054533,"stop":1645563056689}],"afters":[],"links":[],"start":1645563054424,"stop":1645563057683}
