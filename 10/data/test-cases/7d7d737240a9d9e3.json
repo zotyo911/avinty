@@ -1,0 +1,125 @@
+{
+  "uid" : "7d7d737240a9d9e3",
+  "name" : "AVINTY-017 Add on relatives but leave \"Phone number\" field empty",
+  "fullName" : "tests.BasePageTest.addOnRelativesPhoneNumberFieldEmpty",
+  "historyId" : "83a5fba99d63340bad9daa140b726352",
+  "time" : {
+    "start" : 1645659014304,
+    "stop" : 1645659016466,
+    "duration" : 2162
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetDriver",
+    "time" : {
+      "start" : 1645659014305,
+      "stop" : 1645659014563,
+      "duration" : 258
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1645659016401,
+      "stop" : 1645659016466,
+      "duration" : 65
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az127-822"
+  }, {
+    "name" : "thread",
+    "value" : "2193@fv-az127-822.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "addOnRelativesPhoneNumberFieldEmpty"
+  }, {
+    "name" : "suite",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "22451addd98246c5",
+        "reportUrl" : "https://zotyo911.github.io/avinty/9//#testresult/22451addd98246c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645658620911,
+          "stop" : 1645658623001,
+          "duration" : 2090
+        }
+      }, {
+        "uid" : "115ffdec6d876f68",
+        "reportUrl" : "https://zotyo911.github.io/avinty/8//#testresult/115ffdec6d876f68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645658075556,
+          "stop" : 1645658077822,
+          "duration" : 2266
+        }
+      }, {
+        "uid" : "618bd79f0bd3ee55",
+        "reportUrl" : "https://zotyo911.github.io/avinty/7//#testresult/618bd79f0bd3ee55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645657343355,
+          "stop" : 1645657345358,
+          "duration" : 2003
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7d7d737240a9d9e3.json",
+  "parameterValues" : [ ]
+}

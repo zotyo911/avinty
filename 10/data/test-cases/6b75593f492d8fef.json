@@ -1,0 +1,99 @@
+{
+  "uid" : "6b75593f492d8fef",
+  "name" : "AVINTY-004 Delete patient who has relatives",
+  "fullName" : "tests.BasePageTest.deletePatientWithRelatives",
+  "historyId" : "59bfdf91ca529d3e2bc2c192d7830080",
+  "time" : {
+    "start" : 1645658993373,
+    "stop" : 1645658993373,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "public void tests.BasePageTest.deletePatientWithRelatives() is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az127-822"
+  }, {
+    "name" : "thread",
+    "value" : "2193@fv-az127-822.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deletePatientWithRelatives"
+  }, {
+    "name" : "suite",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 4,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "db332097b7a32aad",
+        "reportUrl" : "https://zotyo911.github.io/avinty/9//#testresult/db332097b7a32aad",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.deletePatientWithRelatives() is @Disabled",
+        "time" : {
+          "start" : 1645658600882,
+          "stop" : 1645658600882,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c1881db787f9ac64",
+        "reportUrl" : "https://zotyo911.github.io/avinty/8//#testresult/c1881db787f9ac64",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.deletePatientWithRelatives() is @Disabled",
+        "time" : {
+          "start" : 1645658044354,
+          "stop" : 1645658044354,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "61acd20c522200dd",
+        "reportUrl" : "https://zotyo911.github.io/avinty/7//#testresult/61acd20c522200dd",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.deletePatientWithRelatives() is @Disabled",
+        "time" : {
+          "start" : 1645657324174,
+          "stop" : 1645657324174,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6b75593f492d8fef.json",
+  "parameterValues" : [ ]
+}

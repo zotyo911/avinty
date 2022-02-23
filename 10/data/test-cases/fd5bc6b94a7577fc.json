@@ -1,0 +1,99 @@
+{
+  "uid" : "fd5bc6b94a7577fc",
+  "name" : "AVINTY-018 Edit relative datas (all datas are valid)",
+  "fullName" : "tests.BasePageTest.editRelativeDatasValid",
+  "historyId" : "4bc3d79bd88155eeb5390fa7c1d2b8",
+  "time" : {
+    "start" : 1645659016471,
+    "stop" : 1645659016471,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "public void tests.BasePageTest.editRelativeDatasValid() is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az127-822"
+  }, {
+    "name" : "thread",
+    "value" : "2193@fv-az127-822.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "editRelativeDatasValid"
+  }, {
+    "name" : "suite",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 4,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "9c7a131b45839d",
+        "reportUrl" : "https://zotyo911.github.io/avinty/9//#testresult/9c7a131b45839d",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.editRelativeDatasValid() is @Disabled",
+        "time" : {
+          "start" : 1645658623003,
+          "stop" : 1645658623004,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "9ab917e7e30192f1",
+        "reportUrl" : "https://zotyo911.github.io/avinty/8//#testresult/9ab917e7e30192f1",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.editRelativeDatasValid() is @Disabled",
+        "time" : {
+          "start" : 1645658077824,
+          "stop" : 1645658077824,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "904fc5c24a7ba4ca",
+        "reportUrl" : "https://zotyo911.github.io/avinty/7//#testresult/904fc5c24a7ba4ca",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.editRelativeDatasValid() is @Disabled",
+        "time" : {
+          "start" : 1645657345360,
+          "stop" : 1645657345360,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fd5bc6b94a7577fc.json",
+  "parameterValues" : [ ]
+}

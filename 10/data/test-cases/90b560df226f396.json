@@ -1,0 +1,99 @@
+{
+  "uid" : "90b560df226f396",
+  "name" : "AVINTY-006 Delete a relative, but cancel the process",
+  "fullName" : "tests.BasePageTest.deleteARelativeButCancelTheProcess",
+  "historyId" : "a6c94af8528d362ef7d60fae03193b9f",
+  "time" : {
+    "start" : 1645658993381,
+    "stop" : 1645658993381,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "public void tests.BasePageTest.deleteARelativeButCancelTheProcess() is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az127-822"
+  }, {
+    "name" : "thread",
+    "value" : "2193@fv-az127-822.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteARelativeButCancelTheProcess"
+  }, {
+    "name" : "suite",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 4,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "97e719d18c0e1b43",
+        "reportUrl" : "https://zotyo911.github.io/avinty/9//#testresult/97e719d18c0e1b43",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.deleteARelativeButCancelTheProcess() is @Disabled",
+        "time" : {
+          "start" : 1645658600892,
+          "stop" : 1645658600892,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "e298a5e0cbcd859f",
+        "reportUrl" : "https://zotyo911.github.io/avinty/8//#testresult/e298a5e0cbcd859f",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.deleteARelativeButCancelTheProcess() is @Disabled",
+        "time" : {
+          "start" : 1645658044362,
+          "stop" : 1645658044362,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "69a8d71dd4ce1d49",
+        "reportUrl" : "https://zotyo911.github.io/avinty/7//#testresult/69a8d71dd4ce1d49",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.deleteARelativeButCancelTheProcess() is @Disabled",
+        "time" : {
+          "start" : 1645657324178,
+          "stop" : 1645657324178,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "90b560df226f396.json",
+  "parameterValues" : [ ]
+}
