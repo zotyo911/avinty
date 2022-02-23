@@ -1,0 +1,137 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <Id Name Birth date Relationship> but was: <Id Name Birth date valami>",
+      "children" : [ {
+        "name" : "AVINTY-007 Check that relatives list wiew table headlines",
+        "uid" : "fcd8b5a680efbdf9",
+        "parentUid" : "2b94661226815b1ddeb02d11491ca747",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645657324180,
+          "stop" : 1645657325698,
+          "duration" : 1518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b94661226815b1ddeb02d11491ca747"
+    }, {
+      "name" : "expected: <true> but was: <false>",
+      "children" : [ {
+        "name" : "AVINTY-008 Check add on relative button",
+        "uid" : "b07d2a992f2132f6",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645657325706,
+          "stop" : 1645657327310,
+          "duration" : 1604
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-012 Add on relative (all datas are valid but birth date is invalid)",
+        "uid" : "641f151d4764876c",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645657333396,
+          "stop" : 1645657335431,
+          "duration" : 2035
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-013 Add on relative (all datas valid), but cancel the progress",
+        "uid" : "86e54735b1c393b",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645657335434,
+          "stop" : 1645657337433,
+          "duration" : 1999
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-016 Add on relative but leave \"Birth date\" field empty",
+        "uid" : "f4fe0cb98f0ae9e5",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645657341361,
+          "stop" : 1645657343353,
+          "duration" : 1992
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "845845d2ca1b5f839f479796c2627505"
+    }, {
+      "name" : "expected: <Deyes Tom> but was: <>",
+      "children" : [ {
+        "name" : "AVINTY-010 Add on relative (all datas are valid and phone number too)",
+        "uid" : "882e936a0459d8f8",
+        "parentUid" : "b8d9fa8f2202b8b8b511d7bb3c09a83b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645657329339,
+          "stop" : 1645657331361,
+          "duration" : 2022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b8d9fa8f2202b8b8b511d7bb3c09a83b"
+    }, {
+      "name" : "expected: <This field is required.> but was: <This field is requird.>",
+      "children" : [ {
+        "name" : "AVINTY-015 Add on relative but leave \"Last name\" field empty",
+        "uid" : "221cebfb7e47031e",
+        "parentUid" : "5153718cd06af2af3233c1e662ae1ff5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645657339405,
+          "stop" : 1645657341352,
+          "duration" : 1947
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5153718cd06af2af3233c1e662ae1ff5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "stale element reference: element is not attached to the page document\n  (Session info: headless chrome=98.0.4758.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az42-305', ip: '10.1.0.16', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1028-azure', java.version: '1.8.0_322'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /tmp/.com.google.Chrome.LGuNiY}, goog:chromeOptions: {debuggerAddress: localhost:34085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ad8b7d7f151f82fade5da69796e09725",
+      "children" : [ {
+        "name" : "AVINTY-011 Add on relative (all datas are valid but phone number is invalid)",
+        "uid" : "a63663e9fc4f0c7",
+        "parentUid" : "0924aa0045f6453450bd01f7a2a933db",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645657331365,
+          "stop" : 1645657333388,
+          "duration" : 2023
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0924aa0045f6453450bd01f7a2a933db"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
