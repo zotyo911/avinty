@@ -1,0 +1,79 @@
+{
+  "uid" : "c1881db787f9ac64",
+  "name" : "AVINTY-004 Delete patient who has relatives",
+  "fullName" : "tests.BasePageTest.deletePatientWithRelatives",
+  "historyId" : "59bfdf91ca529d3e2bc2c192d7830080",
+  "time" : {
+    "start" : 1645658044354,
+    "stop" : 1645658044354,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "public void tests.BasePageTest.deletePatientWithRelatives() is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-780"
+  }, {
+    "name" : "thread",
+    "value" : "2191@fv-az74-780.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deletePatientWithRelatives"
+  }, {
+    "name" : "suite",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "61acd20c522200dd",
+        "reportUrl" : "https://zotyo911.github.io/avinty/7//#testresult/61acd20c522200dd",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.deletePatientWithRelatives() is @Disabled",
+        "time" : {
+          "start" : 1645657324174,
+          "stop" : 1645657324174,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c1881db787f9ac64.json",
+  "parameterValues" : [ ]
+}

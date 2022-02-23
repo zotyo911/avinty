@@ -1,0 +1,79 @@
+{
+  "uid" : "ecbb53158923eab8",
+  "name" : "AVINTY-002 Delete patient who has no relative",
+  "fullName" : "tests.BasePageTest.deletePatientNoRelatives",
+  "historyId" : "1ad58577565cc5d70d4bb1e8b65585f9",
+  "time" : {
+    "start" : 1645658044347,
+    "stop" : 1645658044347,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "public void tests.BasePageTest.deletePatientNoRelatives() is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-780"
+  }, {
+    "name" : "thread",
+    "value" : "2191@fv-az74-780.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deletePatientNoRelatives"
+  }, {
+    "name" : "suite",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "2c206522bc4fadd5",
+        "reportUrl" : "https://zotyo911.github.io/avinty/7//#testresult/2c206522bc4fadd5",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.deletePatientNoRelatives() is @Disabled",
+        "time" : {
+          "start" : 1645657324168,
+          "stop" : 1645657324168,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ecbb53158923eab8.json",
+  "parameterValues" : [ ]
+}

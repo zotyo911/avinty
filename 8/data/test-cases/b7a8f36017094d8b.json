@@ -1,0 +1,79 @@
+{
+  "uid" : "b7a8f36017094d8b",
+  "name" : "AVINTY-019 Edit relative datas, but cancel the progress",
+  "fullName" : "tests.BasePageTest.editRelativeDatasCancelTheProcess",
+  "historyId" : "27f62d248cee58c7c7dc0d27e11d6b11",
+  "time" : {
+    "start" : 1645658077826,
+    "stop" : 1645658077826,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "public void tests.BasePageTest.editRelativeDatasCancelTheProcess() is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-780"
+  }, {
+    "name" : "thread",
+    "value" : "2191@fv-az74-780.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "editRelativeDatasCancelTheProcess"
+  }, {
+    "name" : "suite",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "38a16627a5c8cba3",
+        "reportUrl" : "https://zotyo911.github.io/avinty/7//#testresult/38a16627a5c8cba3",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.editRelativeDatasCancelTheProcess() is @Disabled",
+        "time" : {
+          "start" : 1645657345361,
+          "stop" : 1645657345361,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b7a8f36017094d8b.json",
+  "parameterValues" : [ ]
+}

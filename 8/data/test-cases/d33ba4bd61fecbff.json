@@ -1,0 +1,79 @@
+{
+  "uid" : "d33ba4bd61fecbff",
+  "name" : "AVINTY-020 Edit relative datas (all datas and phone number valid)",
+  "fullName" : "tests.BasePageTest.editRelativeDatasPhoneNumberValid",
+  "historyId" : "34fd83c8568c3f13bd750508b317b590",
+  "time" : {
+    "start" : 1645658077827,
+    "stop" : 1645658077827,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "public void tests.BasePageTest.editRelativeDatasPhoneNumberValid() is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az74-780"
+  }, {
+    "name" : "thread",
+    "value" : "2191@fv-az74-780.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "editRelativeDatasPhoneNumberValid"
+  }, {
+    "name" : "suite",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 2,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "8bb127241c146b01",
+        "reportUrl" : "https://zotyo911.github.io/avinty/7//#testresult/8bb127241c146b01",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.editRelativeDatasPhoneNumberValid() is @Disabled",
+        "time" : {
+          "start" : 1645657345362,
+          "stop" : 1645657345362,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d33ba4bd61fecbff.json",
+  "parameterValues" : [ ]
+}
