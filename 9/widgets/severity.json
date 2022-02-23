@@ -1,0 +1,251 @@
+[ {
+  "uid" : "fd17e75cf072983d",
+  "name" : "AVINTY-024 Relatives are sorted in ABC order by their names",
+  "time" : {
+    "start" : 1645658623012,
+    "stop" : 1645658623012,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "90cd8cc1a447bb45",
+  "name" : "AVINTY-019 Edit relative datas, but cancel the progress",
+  "time" : {
+    "start" : 1645658623005,
+    "stop" : 1645658623005,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f108084c331967ce",
+  "name" : "Testing test enviroment is ready. Navigate to BasePage",
+  "time" : {
+    "start" : 1645658594347,
+    "stop" : 1645658599272,
+    "duration" : 4925
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45d956418c362f76",
+  "name" : "AVINTY-011 Add on relative (all datas are valid but phone number is invalid)",
+  "time" : {
+    "start" : 1645658608324,
+    "stop" : 1645658610457,
+    "duration" : 2133
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c2c611c7b860c08",
+  "name" : "AVINTY-016 Add on relative but leave \"Birth date\" field empty",
+  "time" : {
+    "start" : 1645658618749,
+    "stop" : 1645658620902,
+    "duration" : 2153
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "57fb556558e36ad3",
+  "name" : "AVINTY-020 Edit relative datas (all datas and phone number valid)",
+  "time" : {
+    "start" : 1645658623007,
+    "stop" : 1645658623007,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "db332097b7a32aad",
+  "name" : "AVINTY-004 Delete patient who has relatives",
+  "time" : {
+    "start" : 1645658600882,
+    "stop" : 1645658600882,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "22451addd98246c5",
+  "name" : "AVINTY-017 Add on relatives but leave \"Phone number\" field empty",
+  "time" : {
+    "start" : 1645658620911,
+    "stop" : 1645658623001,
+    "duration" : 2090
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "132b5d2687f7ca77",
+  "name" : "AVINTY-012 Add on relative (all datas are valid but birth date is invalid)",
+  "time" : {
+    "start" : 1645658610461,
+    "stop" : 1645658612630,
+    "duration" : 2169
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b4899d745a27507",
+  "name" : "AVINTY-002 Delete patient who has no relative",
+  "time" : {
+    "start" : 1645658600874,
+    "stop" : 1645658600874,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7443a602b3070c5a",
+  "name" : "AVINTY-015 Add on relative but leave \"Last name\" field empty",
+  "time" : {
+    "start" : 1645658616762,
+    "stop" : 1645658618744,
+    "duration" : 1982
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f0501a4de02ae2a",
+  "name" : "AVINTY-005 Delete a relative",
+  "time" : {
+    "start" : 1645658600884,
+    "stop" : 1645658600884,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "97e719d18c0e1b43",
+  "name" : "AVINTY-006 Delete a relative, but cancel the process",
+  "time" : {
+    "start" : 1645658600892,
+    "stop" : 1645658600892,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "e3a709b7d02b4ca4",
+  "name" : "AVINTY-021 Edit relative datas (all datas valid but phone number invalid)",
+  "time" : {
+    "start" : 1645658623008,
+    "stop" : 1645658623008,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "609f745b98821188",
+  "name" : "AVINTY-023 Edit relative datas, modify the Relationship dropdown",
+  "time" : {
+    "start" : 1645658623011,
+    "stop" : 1645658623011,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5f46def41065082e",
+  "name" : "AVINTY-003 Delete patient who has no relatives but cancel the progress at the end",
+  "time" : {
+    "start" : 1645658600878,
+    "stop" : 1645658600878,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "9c7a131b45839d",
+  "name" : "AVINTY-018 Edit relative datas (all datas are valid)",
+  "time" : {
+    "start" : 1645658623003,
+    "stop" : 1645658623004,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b6ed86587b1e9ebd",
+  "name" : "AVINTY-022 Edit relative datas, modify the birt date to invalid date",
+  "time" : {
+    "start" : 1645658623010,
+    "stop" : 1645658623010,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2e08b32d50a5f03f",
+  "name" : "AVINTY-014 Add on relative but leave \"First name\" field empty",
+  "time" : {
+    "start" : 1645658614703,
+    "stop" : 1645658616759,
+    "duration" : 2056
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e753fda7183c0a3e",
+  "name" : "AVINTY-013 Add on relative (all datas valid), but cancel the progress",
+  "time" : {
+    "start" : 1645658612633,
+    "stop" : 1645658614700,
+    "duration" : 2067
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "15ebde766d79c0a5",
+  "name" : "AVINTY-001 Clicking on a patient name",
+  "time" : {
+    "start" : 1645658599357,
+    "stop" : 1645658600868,
+    "duration" : 1511
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fbe9fff5c6c8201",
+  "name" : "AVINTY-008 Check add on relative button",
+  "time" : {
+    "start" : 1645658602466,
+    "stop" : 1645658604096,
+    "duration" : 1630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2336fb8a2a05f6e0",
+  "name" : "AVINTY-007 Check that relatives list wiew table headlines",
+  "time" : {
+    "start" : 1645658600894,
+    "stop" : 1645658602457,
+    "duration" : 1563
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "989fb72591cba75e",
+  "name" : "AVINTY-009 Add on relative (all datas are valid)",
+  "time" : {
+    "start" : 1645658604101,
+    "stop" : 1645658606227,
+    "duration" : 2126
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ec0d27bbfc5d3c2",
+  "name" : "AVINTY-010 Add on relative (all datas are valid and phone number too)",
+  "time" : {
+    "start" : 1645658606230,
+    "stop" : 1645658608320,
+    "duration" : 2090
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

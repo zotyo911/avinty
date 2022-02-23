@@ -1,0 +1,89 @@
+{
+  "uid" : "e3a709b7d02b4ca4",
+  "name" : "AVINTY-021 Edit relative datas (all datas valid but phone number invalid)",
+  "fullName" : "tests.BasePageTest.editRelativeDatasPhoneNumberInvalid",
+  "historyId" : "ae7c10a0584aaf493bb4926770fcf598",
+  "time" : {
+    "start" : 1645658623008,
+    "stop" : 1645658623008,
+    "duration" : 0
+  },
+  "description" : "",
+  "status" : "skipped",
+  "statusMessage" : "public void tests.BasePageTest.editRelativeDatasPhoneNumberInvalid() is @Disabled",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-495"
+  }, {
+    "name" : "thread",
+    "value" : "2224@fv-az39-495.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "editRelativeDatasPhoneNumberInvalid"
+  }, {
+    "name" : "suite",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 3,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b03b4c23b6ada0a6",
+        "reportUrl" : "https://zotyo911.github.io/avinty/8//#testresult/b03b4c23b6ada0a6",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.editRelativeDatasPhoneNumberInvalid() is @Disabled",
+        "time" : {
+          "start" : 1645658077829,
+          "stop" : 1645658077829,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3693e512ea92f1f5",
+        "reportUrl" : "https://zotyo911.github.io/avinty/7//#testresult/3693e512ea92f1f5",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.editRelativeDatasPhoneNumberInvalid() is @Disabled",
+        "time" : {
+          "start" : 1645657345364,
+          "stop" : 1645657345364,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e3a709b7d02b4ca4.json",
+  "parameterValues" : [ ]
+}
