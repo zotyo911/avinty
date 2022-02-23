@@ -149,7 +149,7 @@ public class BasePageTest extends BaseTest {
                 Constraints.RELATIONSHIP);
         basePage.clickOnSubmitButton();
 
-        Assertions.assertTrue(driver.findElement(By.xpath("//*[contains(@class, 'invalid-feedback') and contains(text(), 'Wrong type.')]")).isDisplayed());
+        Assertions.assertTrue(!driver.findElement(By.xpath("//*/table/tbody[2]/tr/td[2]")).isDisplayed());
     }
 
     @Test
