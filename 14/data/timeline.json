@@ -1,0 +1,325 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az39-73",
+    "children" : [ {
+      "name" : "2189@fv-az39-73.ForkJoinPool-1-worker-1(12)",
+      "children" : [ {
+        "name" : "AVINTY-013 Add on relative (all datas valid), but cancel the progress",
+        "uid" : "c26e4c5b200387cd",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645740814635,
+          "stop" : 1645740816726,
+          "duration" : 2091
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-009 Add on relative (all datas are valid)",
+        "uid" : "141ddbfbe1d1b72c",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645740805969,
+          "stop" : 1645740808135,
+          "duration" : 2166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-022 Edit relative datas, modify the birt date to invalid date",
+        "uid" : "117e5b46b05ec8d8",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645740833368,
+          "stop" : 1645740835481,
+          "duration" : 2113
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-008 Check add on relative button",
+        "uid" : "8bbcefcabd6c19ed",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645740804332,
+          "stop" : 1645740805967,
+          "duration" : 1635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-001 Clicking on a patient name",
+        "uid" : "653fa10292f5c36b",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645740786418,
+          "stop" : 1645740795202,
+          "duration" : 8784
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-005 Delete a relative",
+        "uid" : "d84bded6ade72b07",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645740799586,
+          "stop" : 1645740801154,
+          "duration" : 1568
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-004 Delete patient who has relatives",
+        "uid" : "1fed5fee73fbcf1a",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645740798288,
+          "stop" : 1645740799578,
+          "duration" : 1290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-015 Add on relative but leave \"Last name\" field empty",
+        "uid" : "795e5063e310ac2",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645740818843,
+          "stop" : 1645740820999,
+          "duration" : 2156
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-019 Edit relative datas, but cancel the progress",
+        "uid" : "9ad7f5572aa49700",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645740827204,
+          "stop" : 1645740829207,
+          "duration" : 2003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-003 Delete patient who has no relatives but cancel the progress at the end",
+        "uid" : "2e074af2c17f4ffd",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645740796834,
+          "stop" : 1645740798283,
+          "duration" : 1449
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-016 Add on relative but leave \"Birth date\" field empty",
+        "uid" : "9772097f14b602c9",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645740821002,
+          "stop" : 1645740823045,
+          "duration" : 2043
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-014 Add on relative but leave \"First name\" field empty",
+        "uid" : "8f63d3afffed3ee2",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645740816729,
+          "stop" : 1645740818841,
+          "duration" : 2112
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-007 Check that relatives list wiew table headlines",
+        "uid" : "1df7af8c6094cb62",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645740802776,
+          "stop" : 1645740804329,
+          "duration" : 1553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-024 Relatives are sorted in ABC order by their names",
+        "uid" : "a976c5011f7d499d",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645740837531,
+          "stop" : 1645740839770,
+          "duration" : 2239
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-023 Edit relative datas, modify the Relationship dropdown",
+        "uid" : "30ed04447bd2eb6a",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645740835483,
+          "stop" : 1645740837529,
+          "duration" : 2046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-010 Add on relative (all datas are valid and phone number too)",
+        "uid" : "d18800287c1499a8",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645740808137,
+          "stop" : 1645740810342,
+          "duration" : 2205
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-020 Edit relative datas (all datas and phone number valid)",
+        "uid" : "287c7e6d86eb2b41",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645740829209,
+          "stop" : 1645740831275,
+          "duration" : 2066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-012 Add on relative (all datas are valid but birth date is invalid)",
+        "uid" : "2c036e07c959896d",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645740812476,
+          "stop" : 1645740814633,
+          "duration" : 2157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-006 Delete a relative, but cancel the process",
+        "uid" : "b16b14f7da2d0331",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645740801157,
+          "stop" : 1645740802772,
+          "duration" : 1615
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-021 Edit relative datas (all datas valid but phone number invalid)",
+        "uid" : "249713b1071a0a5f",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645740831278,
+          "stop" : 1645740833366,
+          "duration" : 2088
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-018 Edit relative datas (all datas are valid)",
+        "uid" : "4b22ff52323836de",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645740825156,
+          "stop" : 1645740827202,
+          "duration" : 2046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-002 Delete patient who has no relative",
+        "uid" : "12d1ccc10c4c4551",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645740795271,
+          "stop" : 1645740796829,
+          "duration" : 1558
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-017 Add on relatives but leave \"Phone number\" field empty",
+        "uid" : "187b215c994d90ca",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645740823050,
+          "stop" : 1645740825154,
+          "duration" : 2104
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-011 Add on relative (all datas are valid but phone number is invalid)",
+        "uid" : "b42a85196e685979",
+        "parentUid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645740810345,
+          "stop" : 1645740812473,
+          "duration" : 2128
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a3f5a21ecbfd5a0a098f44c3406a3e9"
+    } ],
+    "uid" : "2886a701925d7a4a09f60936502f0fa0"
+  } ],
+  "name" : "timeline"
+}
