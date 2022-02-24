@@ -1,0 +1,210 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <false> but was: <true>",
+      "children" : [ {
+        "name" : "AVINTY-004 Delete patient who has relatives",
+        "uid" : "7684237193085eae",
+        "parentUid" : "c90596964ef741fb1dcdbdecc98d55d4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645714832237,
+          "stop" : 1645714833582,
+          "duration" : 1345
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c90596964ef741fb1dcdbdecc98d55d4"
+    }, {
+      "name" : "expected: <Id Name Birth date Relationship> but was: <Id Name Birth date valami>",
+      "children" : [ {
+        "name" : "AVINTY-007 Check that relatives list wiew table headlines",
+        "uid" : "4df51a7e65180248",
+        "parentUid" : "2b94661226815b1ddeb02d11491ca747",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645714836949,
+          "stop" : 1645714838568,
+          "duration" : 1619
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b94661226815b1ddeb02d11491ca747"
+    }, {
+      "name" : "expected: <Tom Deyes> but was: <>",
+      "children" : [ {
+        "name" : "AVINTY-010 Add on relative (all datas are valid and phone number too)",
+        "uid" : "64df2ab83280471",
+        "parentUid" : "dcc2e935b41b669c7fb1362e75daf295",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645714842687,
+          "stop" : 1645714845029,
+          "duration" : 2342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dcc2e935b41b669c7fb1362e75daf295"
+    }, {
+      "name" : "expected: <true> but was: <false>",
+      "children" : [ {
+        "name" : "AVINTY-011 Add on relative (all datas are valid but phone number is invalid)",
+        "uid" : "8535e26784acf378",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645714845033,
+          "stop" : 1645714847427,
+          "duration" : 2394
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-012 Add on relative (all datas are valid but birth date is invalid)",
+        "uid" : "9e851b21e0d6aa76",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645714847431,
+          "stop" : 1645714849918,
+          "duration" : 2487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-013 Add on relative (all datas valid), but cancel the progress",
+        "uid" : "a78e8a137556818e",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645714849921,
+          "stop" : 1645714852350,
+          "duration" : 2429
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-016 Add on relative but leave \"Birth date\" field empty",
+        "uid" : "78d031ae412baff4",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645714857213,
+          "stop" : 1645714859550,
+          "duration" : 2337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-021 Edit relative datas (all datas valid but phone number invalid)",
+        "uid" : "a54961464ca0ec52",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645714869192,
+          "stop" : 1645714871479,
+          "duration" : 2287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-022 Edit relative datas, modify the birt date to invalid date",
+        "uid" : "80a143444a389701",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645714871481,
+          "stop" : 1645714873748,
+          "duration" : 2267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "845845d2ca1b5f839f479796c2627505"
+    }, {
+      "name" : "expected: <This field is required.> but was: <This field is requird.>",
+      "children" : [ {
+        "name" : "AVINTY-015 Add on relative but leave \"Last name\" field empty",
+        "uid" : "56296ab29ae76ba2",
+        "parentUid" : "5153718cd06af2af3233c1e662ae1ff5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645714854851,
+          "stop" : 1645714857203,
+          "duration" : 2352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5153718cd06af2af3233c1e662ae1ff5"
+    }, {
+      "name" : "expected: <Kamala Harris> but was: <Harris Kate>",
+      "children" : [ {
+        "name" : "AVINTY-019 Edit relative datas, but cancel the progress",
+        "uid" : "4530e6eb0da57558",
+        "parentUid" : "f343360db40afe97dea9faaa8b9133cd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645714864560,
+          "stop" : 1645714866909,
+          "duration" : 2349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f343360db40afe97dea9faaa8b9133cd"
+    }, {
+      "name" : "expected: <Kamala Harris> but was: <Harris Kamala>",
+      "children" : [ {
+        "name" : "AVINTY-020 Edit relative datas (all datas and phone number valid)",
+        "uid" : "d708cac375c77cd0",
+        "parentUid" : "e8e8f757f44d4f52207f782862bf09da",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645714866912,
+          "stop" : 1645714869190,
+          "duration" : 2278
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e8e8f757f44d4f52207f782862bf09da"
+    }, {
+      "name" : "expected: <[Alber Atlas, Carter Donald, Clinton Hillary, Tusk Peter]> but was: <[Tusk Peter, Clinton Hillary, Carter Donald, Atlas Albert]>",
+      "children" : [ {
+        "name" : "AVINTY-024 Relatives are sorted in ABC order by their names",
+        "uid" : "fd0a6e14052fc894",
+        "parentUid" : "ba30b14044ebdb33d47bc3ef81f24f2b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645714876029,
+          "stop" : 1645714878502,
+          "duration" : 2473
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ba30b14044ebdb33d47bc3ef81f24f2b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
