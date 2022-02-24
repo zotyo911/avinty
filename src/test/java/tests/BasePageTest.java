@@ -109,7 +109,7 @@ public class BasePageTest extends BaseTest {
         basePage.navigateToBasePage(Constraints.URL);
         basePage.clickingOnPatientName(Constraints.PATIENT_NAME_ADD_ON);
         basePage.clickingOnRelativesAddOnButton(Constraints.PATIENT_NAME_ADD_ON);
-        basePage.newContactAddOn(Constraints.FIRST_NAME, Constraints.LAST_NAME, Constraints.BIRTH_DATE, Constraints.PHONE_NUMBER,
+        basePage.fillContactForm(Constraints.FIRST_NAME, Constraints.LAST_NAME, Constraints.BIRTH_DATE, Constraints.PHONE_NUMBER,
                 Constraints.RELATIONSHIP);
         basePage.clickOnSubmitButton();
 
@@ -127,11 +127,11 @@ public class BasePageTest extends BaseTest {
         basePage.navigateToBasePage(Constraints.URL);
         basePage.clickingOnPatientName(Constraints.PATIENT_NAME_ADD_ON);
         basePage.clickingOnRelativesAddOnButton(Constraints.PATIENT_NAME_ADD_ON);
-        basePage.newContactAddOn(Constraints.FIRST_NAME, Constraints.LAST_NAME, Constraints.BIRTH_DATE, Constraints.PHONE_NUMBER_2,
+        basePage.fillContactForm(Constraints.FIRST_NAME, Constraints.LAST_NAME, Constraints.BIRTH_DATE, Constraints.PHONE_NUMBER_2,
                 Constraints.RELATIONSHIP);
         basePage.clickOnSubmitButton();
 
-        String expected = "Deyes Tom";
+        String expected = Constraints.FIRST_NAME + " " + Constraints.LAST_NAME;
         String actual = driver.findElement(By.xpath("//*/table/tbody[2]/tr/td[2]")).getText();
 
         Assertions.assertEquals(expected, actual);
@@ -145,7 +145,7 @@ public class BasePageTest extends BaseTest {
         basePage.navigateToBasePage(Constraints.URL);
         basePage.clickingOnPatientName(Constraints.PATIENT_NAME_ADD_ON);
         basePage.clickingOnRelativesAddOnButton(Constraints.PATIENT_NAME_ADD_ON);
-        basePage.newContactAddOn(Constraints.FIRST_NAME, Constraints.LAST_NAME, Constraints.BIRTH_DATE, Constraints.INVALID_PHONE_NUMBER,
+        basePage.fillContactForm(Constraints.FIRST_NAME, Constraints.LAST_NAME, Constraints.BIRTH_DATE, Constraints.INVALID_PHONE_NUMBER,
                 Constraints.RELATIONSHIP);
         basePage.clickOnSubmitButton();
 
@@ -160,7 +160,7 @@ public class BasePageTest extends BaseTest {
         basePage.navigateToBasePage(Constraints.URL);
         basePage.clickingOnPatientName(Constraints.PATIENT_NAME_ADD_ON);
         basePage.clickingOnRelativesAddOnButton(Constraints.PATIENT_NAME_ADD_ON);
-        basePage.newContactAddOn(Constraints.FIRST_NAME, Constraints.LAST_NAME, Constraints.INVALID_BIRTH_DATE_2, Constraints.PHONE_NUMBER,
+        basePage.fillContactForm(Constraints.FIRST_NAME, Constraints.LAST_NAME, Constraints.INVALID_BIRTH_DATE_2, Constraints.PHONE_NUMBER,
                 Constraints.RELATIONSHIP);
         basePage.clickOnSubmitButton();
 
@@ -175,7 +175,7 @@ public class BasePageTest extends BaseTest {
         basePage.navigateToBasePage(Constraints.URL);
         basePage.clickingOnPatientName(Constraints.PATIENT_NAME_ADD_ON);
         basePage.clickingOnRelativesAddOnButton(Constraints.PATIENT_NAME_ADD_ON);
-        basePage.newContactAddOn(Constraints.FIRST_NAME, Constraints.LAST_NAME, Constraints.BIRTH_DATE, Constraints.PHONE_NUMBER,
+        basePage.fillContactForm(Constraints.FIRST_NAME, Constraints.LAST_NAME, Constraints.BIRTH_DATE, Constraints.PHONE_NUMBER,
                 Constraints.RELATIONSHIP);
         basePage.clickOnCancelButton();
 
@@ -190,7 +190,7 @@ public class BasePageTest extends BaseTest {
         basePage.navigateToBasePage(Constraints.URL);
         basePage.clickingOnPatientName(Constraints.PATIENT_NAME_ADD_ON);
         basePage.clickingOnRelativesAddOnButton(Constraints.PATIENT_NAME_ADD_ON);
-        basePage.newContactAddOn(Constraints.FIRST_NAME_EMPTY, Constraints.LAST_NAME, Constraints.BIRTH_DATE, Constraints.PHONE_NUMBER,
+        basePage.fillContactForm(Constraints.FIRST_NAME_EMPTY, Constraints.LAST_NAME, Constraints.BIRTH_DATE, Constraints.PHONE_NUMBER,
                 Constraints.RELATIONSHIP);
         basePage.clickOnSubmitButton();
 
@@ -208,7 +208,7 @@ public class BasePageTest extends BaseTest {
         basePage.navigateToBasePage(Constraints.URL);
         basePage.clickingOnPatientName(Constraints.PATIENT_NAME_ADD_ON);
         basePage.clickingOnRelativesAddOnButton(Constraints.PATIENT_NAME_ADD_ON);
-        basePage.newContactAddOn(Constraints.FIRST_NAME, Constraints.LAST_NAME_EMPTY, Constraints.BIRTH_DATE, Constraints.PHONE_NUMBER,
+        basePage.fillContactForm(Constraints.FIRST_NAME, Constraints.LAST_NAME_EMPTY, Constraints.BIRTH_DATE, Constraints.PHONE_NUMBER,
                 Constraints.RELATIONSHIP);
         basePage.clickOnSubmitButton();
 
@@ -226,7 +226,7 @@ public class BasePageTest extends BaseTest {
         basePage.navigateToBasePage(Constraints.URL);
         basePage.clickingOnPatientName(Constraints.PATIENT_NAME_ADD_ON);
         basePage.clickingOnRelativesAddOnButton(Constraints.PATIENT_NAME_ADD_ON);
-        basePage.newContactAddOn(Constraints.FIRST_NAME, Constraints.LAST_NAME, Constraints.BIRTH_DATE_EMPTY, Constraints.PHONE_NUMBER,
+        basePage.fillContactForm(Constraints.FIRST_NAME, Constraints.LAST_NAME, Constraints.BIRTH_DATE_EMPTY, Constraints.PHONE_NUMBER,
                 Constraints.RELATIONSHIP);
         basePage.clickOnSubmitButton();
 
@@ -245,7 +245,7 @@ public class BasePageTest extends BaseTest {
         basePage.navigateToBasePage(Constraints.URL);
         basePage.clickingOnPatientName(Constraints.PATIENT_NAME_ADD_ON);
         basePage.clickingOnRelativesAddOnButton(Constraints.PATIENT_NAME_ADD_ON);
-        basePage.newContactAddOn(Constraints.FIRST_NAME, Constraints.LAST_NAME, Constraints.BIRTH_DATE, Constraints.PHONE_NUMBER_EMPTY,
+        basePage.fillContactForm(Constraints.FIRST_NAME, Constraints.LAST_NAME, Constraints.BIRTH_DATE, Constraints.PHONE_NUMBER_EMPTY,
                 Constraints.RELATIONSHIP);
         basePage.clickOnSubmitButton();
 
@@ -260,49 +260,108 @@ public class BasePageTest extends BaseTest {
     @Test
     @Order(19)
     @DisplayName("AVINTY-018 Edit relative datas (all datas are valid)")
-    @Disabled
     public void editRelativeDatasValid() {
-        //TODO
+        basePage = new BasePage(driver);
+        basePage.navigateToBasePage(Constraints.URL);
+        basePage.clickingOnPatientName(Constraints.PATIENT_NAME_ADD_ON);
+        basePage.clickOnKamalaHarrisEditButton();
+        basePage.fillContactForm(Constraints.TEST1_FIRST_NAME, Constraints.TEST1_LAST_NAME, Constraints.TEST1_BIRTH_DATE,
+                Constraints.TEST1_PHONE_NUMBER, Constraints.TEST1_RELATIONSHIP);
+        basePage.clickOnSubmitButton();
+
+        Assertions.assertTrue(driver.findElement(By.xpath("//*[contains(@class, 'btn btn-secondary btn-block btn-lg') and contains(@title, 'Trump')]")).isEnabled());
+    //    basePage.clickOnKamalaHarrisEditButton();
+
+    //    String expected_phone_number = Constraints.TEST1_PHONE_NUMBER;
+    //    driver.findElement(By.id("formGridAddress2")).click();
+    //    String actual_phone_number = driver.findElement(By.id("formGridAddress2")).getText();
+
+    //    Assertions.assertEquals(expected_phone_number, actual_phone_number);
     }
 
     @Test
     @Order(20)
     @DisplayName("AVINTY-019 Edit relative datas, but cancel the progress")
-    @Disabled
     public void editRelativeDatasCancelTheProcess() {
-        //TODO
+        basePage = new BasePage(driver);
+        basePage.navigateToBasePage(Constraints.URL);
+        basePage.clickingOnPatientName(Constraints.PATIENT_NAME_ADD_ON);
+        basePage.clickOnKamalaHarrisEditButton();
+        basePage.fillContactForm(Constraints.TEST1_MODIFIED_FIRST_NAME, Constraints.TEST1_LAST_NAME, Constraints.TEST1_BIRTH_DATE,
+                Constraints.TEST1_PHONE_NUMBER, Constraints.TEST1_RELATIONSHIP);
+        basePage.clickOnCancelButton();
+
+        String expected = Constraints.TEST1_FIRST_NAME + " " + Constraints.TEST1_LAST_NAME;
+
+        String actual = driver.findElement(By.xpath("//*/div[3]/div/div[2]/div/div[2]/div/table/tbody/tr/td[2]")).getText();
+
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
     @Order(21)
     @DisplayName("AVINTY-020 Edit relative datas (all datas and phone number valid)")
-    @Disabled
     public void editRelativeDatasPhoneNumberValid() {
-        //TODO
+        basePage = new BasePage(driver);
+        basePage.navigateToBasePage(Constraints.URL);
+        basePage.clickingOnPatientName(Constraints.PATIENT_NAME_ADD_ON);
+        basePage.clickOnKamalaHarrisEditButton();
+        basePage.fillContactForm(Constraints.TEST1_FIRST_NAME, Constraints.TEST1_LAST_NAME, Constraints.TEST1_BIRTH_DATE,
+                Constraints.TEST1_MODIFIED_VALID_PHONE_NUMBER, Constraints.TEST1_RELATIONSHIP);
+        basePage.clickOnSubmitButton();
+
+        String expected = Constraints.TEST1_FIRST_NAME + " " + Constraints.TEST1_LAST_NAME;
+        String actual = driver.findElement(By.xpath("//*/div[3]/div/div[2]/div/div[2]/div/table/tbody/tr/td[2]")).getText();
+
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
     @Order(22)
     @DisplayName("AVINTY-021 Edit relative datas (all datas valid but phone number invalid)")
-    @Disabled
     public void editRelativeDatasPhoneNumberInvalid() {
-        //TODO
+        basePage = new BasePage(driver);
+        basePage.navigateToBasePage(Constraints.URL);
+        basePage.clickingOnPatientName(Constraints.PATIENT_NAME_ADD_ON);
+        basePage.clickOnKamalaHarrisEditButton();
+        basePage.fillContactForm(Constraints.TEST1_FIRST_NAME, Constraints.TEST1_LAST_NAME, Constraints.TEST1_BIRTH_DATE,
+                Constraints.TEST1_INVALID_PHONE_NUMBER, Constraints.TEST1_RELATIONSHIP);
+        basePage.clickOnSubmitButton();
+
+        Assertions.assertTrue(!driver.findElement(By.xpath("//*/div[3]/div/div[2]/div/div[2]/div/table/tbody/tr/td[2]")).isDisplayed());
     }
 
     @Test
     @Order(23)
     @DisplayName("AVINTY-022 Edit relative datas, modify the birt date to invalid date")
-    @Disabled
     public void editRelativeDatasBirthDateInvalid() {
-        //TODO
+        basePage = new BasePage(driver);
+        basePage.navigateToBasePage(Constraints.URL);
+        basePage.clickingOnPatientName(Constraints.PATIENT_NAME_ADD_ON);
+        basePage.clickOnKamalaHarrisEditButton();
+        basePage.fillContactForm(Constraints.TEST1_FIRST_NAME, Constraints.TEST1_LAST_NAME, Constraints.TEST1_INVALID_BIRTH_DATE,
+                Constraints.TEST1_PHONE_NUMBER, Constraints.TEST1_RELATIONSHIP);
+        basePage.clickOnSubmitButton();
+
+        Assertions.assertTrue(!driver.findElement(By.xpath("//*/div[3]/div/div[2]/div/div[2]/div/table/tbody/tr/td[2]")).isDisplayed());
     }
 
     @Test
     @Order(24)
     @DisplayName("AVINTY-023 Edit relative datas, modify the Relationship dropdown")
-    @Disabled
     public void editRelativeDatasModifyRelationshipDropdown() {
-        //TODO
+        basePage = new BasePage(driver);
+        basePage.navigateToBasePage(Constraints.URL);
+        basePage.clickingOnPatientName(Constraints.PATIENT_NAME_ADD_ON);
+        basePage.clickOnKamalaHarrisEditButton();
+        basePage.fillContactForm(Constraints.TEST1_FIRST_NAME, Constraints.TEST1_LAST_NAME, Constraints.TEST1_BIRTH_DATE,
+                Constraints.TEST1_PHONE_NUMBER, Constraints.TEST1_MODIFIED_RELATIONSHIP);
+        basePage.clickOnSubmitButton();
+
+        String expected = Constraints.TEST1_MODIFIED_RELATIONSHIP;
+        String actual = driver.findElement(By.xpath("//*/div[3]/div/div[2]/div/div[2]/div/table/tbody/tr/td[4]")).getText();
+
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test

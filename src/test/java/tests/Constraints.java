@@ -30,6 +30,19 @@ public class Constraints {
     public static final String INVALID_BIRTH_DATE_3 = "ab-01-cdef";
     public static final String INVALID_PHONE_NUMBER = "123456789,12";
 
+    //Kamala Harris /TEST1/ datas
+    public static final String TEST1_NAME = "Kamala. Harris";
+    public static final String TEST1_FIRST_NAME = "Kamala";
+    public static final String TEST1_MODIFIED_FIRST_NAME = "Kate";
+    public static final String TEST1_LAST_NAME = "Harris";
+    public static final String TEST1_BIRTH_DATE = "10-11-1958";
+    public static final String TEST1_INVALID_BIRTH_DATE = "31-02-1958";
+    public static final String TEST1_PHONE_NUMBER = "+36301234566";
+    public static final String TEST1_MODIFIED_VALID_PHONE_NUMBER = "+3672123455";
+    public static final String TEST1_INVALID_PHONE_NUMBER = "123456789012";
+    public static final String TEST1_RELATIONSHIP = "Child";
+    public static final String TEST1_MODIFIED_RELATIONSHIP = "Spouse";
+
     //Patient names
     public static final String SMITH_JOHN = "Smith. John";
     public static final String MERKEL_ANGELA = "Merkel. Angela";

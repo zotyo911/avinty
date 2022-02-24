@@ -32,6 +32,7 @@ public class BasePage {
     private final By ANGELA_MERKEL_NEW_CONTACT_ADD_ON_BUTTON = By.xpath("//*[contains(@class, 'btn btn-secondary btn-block btn-lg') and contains(@title, 'Merkel')]");
 
     private final By EDIT_BUTTON_GROUP = By.xpath("//*[contains(@class, 'btn btn-primary') and contains(text(), 'edit')]");
+    private final By KAMALA_HARRIS_EDIT_BUTTON = By.xpath("//*/div[3]/div/div[2]/div/div[2]/div/table/tbody/tr/td[5]/button[1]");
     private final By DELETE_BUTTON_GROUP = By.xpath("//*[contains(@class, 'btn btn-primary') and contains(text(), 'X')]");
 
     //new contact form and edit form WebElements
@@ -65,7 +66,7 @@ public class BasePage {
 
     //clicking on relative's add on button
     public void clickingOnRelativesAddOnButton(String name) {
-        if (name ==("Smith. John")) {
+        if (name.equals("Smith. John")) {
             driver.findElement(SMITH_JOHN_NEW_CONTACT_ADD_ON_BUTTON).click();
         } else if (name.equals("Binden. Gordon")) {
             driver.findElement(BINDEN_GORDON_NEW_CONTACT_ADD_ON_BUTTON).click();
@@ -79,15 +80,19 @@ public class BasePage {
             driver.findElement(CLINTON_SUSAN_NEW_CONTACT_ADD_ON_BUTTON).click();
         } else if (name.equals("Fischer. Anna")) {
             driver.findElement(FISCHER_ANNA_NEW_CONTACT_ADD_ON_BUTTON).click();
-        } else if (name == "Merkel. Angela"){
+        } else if (name.equals("Merkel. Angela")){
             driver.findElement(ANGELA_MERKEL_NEW_CONTACT_ADD_ON_BUTTON).click();
         }
     }
 
-    public void newContactAddOn(String first, String last, String birth, String phone, String relationship) {
+    public void fillContactForm(String first, String last, String birth, String phone, String relationship) {
+        driver.findElement(FIRST_NAME).clear();
         driver.findElement(FIRST_NAME).sendKeys(first);
+        driver.findElement(LAST_NAME).clear();
         driver.findElement(LAST_NAME).sendKeys(last);
+        driver.findElement(BIRTH_DATE).clear();
         driver.findElement(BIRTH_DATE).sendKeys(birth);
+        driver.findElement(PHONE_NUMBER).clear();
         driver.findElement(PHONE_NUMBER).sendKeys(phone);
         Select selectList = new Select(driver.findElement(RELATIONSHIP));
         selectList.selectByVisibleText(relationship);
@@ -99,6 +104,10 @@ public class BasePage {
 
     public void clickOnCancelButton() {
         driver.findElement(CANCEL_BUTTON).click();
+    }
+
+    public void clickOnKamalaHarrisEditButton() {
+        driver.findElement(KAMALA_HARRIS_EDIT_BUTTON).click();
     }
 
     public void patientRelativesTableContent() {
