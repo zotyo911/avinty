@@ -299,13 +299,6 @@ public class BasePageTest extends BaseTest {
         basePage.clickOnSubmitButton();
 
         Assertions.assertTrue(driver.findElement(By.xpath("//*[contains(@class, 'btn btn-secondary btn-block btn-lg') and contains(@title, 'Trump')]")).isEnabled());
-    //    basePage.clickOnKamalaHarrisEditButton();
-
-    //    String expected_phone_number = Constraints.TEST1_PHONE_NUMBER;
-    //    driver.findElement(By.id("formGridAddress2")).click();
-    //    String actual_phone_number = driver.findElement(By.id("formGridAddress2")).getText();
-
-    //    Assertions.assertEquals(expected_phone_number, actual_phone_number);
     }
 
     @Test
@@ -412,7 +405,7 @@ public class BasePageTest extends BaseTest {
         result.add(driver.findElement(By.xpath("//*/div[7]/div/div[2]/div/div[2]/div/table/tbody[4]/tr/td[2]")).getText());
 
         List<String> expected = new ArrayList<>();
-        expected.add("Alber Atlas");
+        expected.add("Atlas Albert");
         expected.add("Carter Donald");
         expected.add("Clinton Hillary");
         expected.add("Tusk Peter");
