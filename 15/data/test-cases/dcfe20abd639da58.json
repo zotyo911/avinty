@@ -1,0 +1,175 @@
+{
+  "uid" : "dcfe20abd639da58",
+  "name" : "AVINTY-005 Delete a relative",
+  "fullName" : "tests.BasePageTest.deleteARelative",
+  "historyId" : "9ca2df372f923d6f71808454e7bc5101",
+  "time" : {
+    "start" : 1645741199358,
+    "stop" : 1645741200909,
+    "duration" : 1551
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetDriver",
+    "time" : {
+      "start" : 1645741199359,
+      "stop" : 1645741199611,
+      "duration" : 252
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1645741200844,
+      "stop" : 1645741200909,
+      "duration" : 65
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-378"
+  }, {
+    "name" : "thread",
+    "value" : "2194@fv-az77-378.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteARelative"
+  }, {
+    "name" : "suite",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 5,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "d84bded6ade72b07",
+        "reportUrl" : "https://zotyo911.github.io/avinty/14//#testresult/d84bded6ade72b07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645740799586,
+          "stop" : 1645740801154,
+          "duration" : 1568
+        }
+      }, {
+        "uid" : "b1a23e594588540f",
+        "reportUrl" : "https://zotyo911.github.io/avinty/13//#testresult/b1a23e594588540f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645714833604,
+          "stop" : 1645714835296,
+          "duration" : 1692
+        }
+      }, {
+        "uid" : "a16b470dc628aa49",
+        "reportUrl" : "https://zotyo911.github.io/avinty/12//#testresult/a16b470dc628aa49",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645709767075,
+          "stop" : 1645709768657,
+          "duration" : 1582
+        }
+      }, {
+        "uid" : "91bfd94f01e6bfe6",
+        "reportUrl" : "https://zotyo911.github.io/avinty/11//#testresult/91bfd94f01e6bfe6",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.deleteARelative() is @Disabled",
+        "time" : {
+          "start" : 1645703427737,
+          "stop" : 1645703427737,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "c7efb697f6826946",
+        "reportUrl" : "https://zotyo911.github.io/avinty/10//#testresult/c7efb697f6826946",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.deleteARelative() is @Disabled",
+        "time" : {
+          "start" : 1645658993378,
+          "stop" : 1645658993378,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "9f0501a4de02ae2a",
+        "reportUrl" : "https://zotyo911.github.io/avinty/9//#testresult/9f0501a4de02ae2a",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.deleteARelative() is @Disabled",
+        "time" : {
+          "start" : 1645658600884,
+          "stop" : 1645658600884,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "7a158a60c7c4546b",
+        "reportUrl" : "https://zotyo911.github.io/avinty/8//#testresult/7a158a60c7c4546b",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.deleteARelative() is @Disabled",
+        "time" : {
+          "start" : 1645658044360,
+          "stop" : 1645658044360,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3ae4fa23e61f2735",
+        "reportUrl" : "https://zotyo911.github.io/avinty/7//#testresult/3ae4fa23e61f2735",
+        "status" : "skipped",
+        "statusDetails" : "public void tests.BasePageTest.deleteARelative() is @Disabled",
+        "time" : {
+          "start" : 1645657324176,
+          "stop" : 1645657324176,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dcfe20abd639da58.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,170 @@
+{
+  "uid" : "35a028bff8635681",
+  "name" : "AVINTY-009 Add on relative (all datas are valid)",
+  "fullName" : "tests.BasePageTest.addOnRelativesAllDatasValid",
+  "historyId" : "86ca1ba6b98ae0542367793bbb88447c",
+  "time" : {
+    "start" : 1645741205629,
+    "stop" : 1645741207735,
+    "duration" : 2106
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetDriver",
+    "time" : {
+      "start" : 1645741205629,
+      "stop" : 1645741205889,
+      "duration" : 260
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1645741207671,
+      "stop" : 1645741207735,
+      "duration" : 64
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az77-378"
+  }, {
+    "name" : "thread",
+    "value" : "2194@fv-az77-378.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "addOnRelativesAllDatasValid"
+  }, {
+    "name" : "suite",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "141ddbfbe1d1b72c",
+        "reportUrl" : "https://zotyo911.github.io/avinty/14//#testresult/141ddbfbe1d1b72c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645740805969,
+          "stop" : 1645740808135,
+          "duration" : 2166
+        }
+      }, {
+        "uid" : "97a64d3bcc4ffeb2",
+        "reportUrl" : "https://zotyo911.github.io/avinty/13//#testresult/97a64d3bcc4ffeb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645714840315,
+          "stop" : 1645714842684,
+          "duration" : 2369
+        }
+      }, {
+        "uid" : "b25ae158c27f1219",
+        "reportUrl" : "https://zotyo911.github.io/avinty/12//#testresult/b25ae158c27f1219",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645709773416,
+          "stop" : 1645709775597,
+          "duration" : 2181
+        }
+      }, {
+        "uid" : "b1ccd9e90aadcd15",
+        "reportUrl" : "https://zotyo911.github.io/avinty/11//#testresult/b1ccd9e90aadcd15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645703431157,
+          "stop" : 1645703433434,
+          "duration" : 2277
+        }
+      }, {
+        "uid" : "bbb6b7828086de62",
+        "reportUrl" : "https://zotyo911.github.io/avinty/10//#testresult/bbb6b7828086de62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645658996881,
+          "stop" : 1645658999095,
+          "duration" : 2214
+        }
+      }, {
+        "uid" : "989fb72591cba75e",
+        "reportUrl" : "https://zotyo911.github.io/avinty/9//#testresult/989fb72591cba75e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645658604101,
+          "stop" : 1645658606227,
+          "duration" : 2126
+        }
+      }, {
+        "uid" : "af0bac441c6c5521",
+        "reportUrl" : "https://zotyo911.github.io/avinty/8//#testresult/af0bac441c6c5521",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645658047882,
+          "stop" : 1645658050101,
+          "duration" : 2219
+        }
+      }, {
+        "uid" : "8bd650b4b9171be1",
+        "reportUrl" : "https://zotyo911.github.io/avinty/7//#testresult/8bd650b4b9171be1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645657327316,
+          "stop" : 1645657329336,
+          "duration" : 2020
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "35a028bff8635681.json",
+  "parameterValues" : [ ]
+}
