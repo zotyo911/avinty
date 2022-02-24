@@ -4,6 +4,9 @@ import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import pages.BasePage;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class BasePageTest extends BaseTest {
 
@@ -26,11 +29,21 @@ public class BasePageTest extends BaseTest {
     public void deletePatientNoRelatives() {
         basePage = new BasePage(driver);
         basePage.navigateToBasePage(Constraints.URL);
-        basePage.test2DeleteIcon();
+        basePage.BindenGordonDeleteIcon();
         driver.switchTo().activeElement();
         basePage.okButtonClickOnDeletePopUp();
 
-      //  Assertions.assertFalse(driver.findElement(By.xpath("//*[contains(@style, 'display: block;') and contains(text(), 'Binden. Gordon')]")).isEnabled());
+        List<String> result = basePage.getAllNames();
+        List<String> expected = new ArrayList<>();
+        expected.add("Smith. John");
+        expected.add("Trump. Peter");
+        expected.add("Pence. Boris");
+        expected.add("Black. Charles");
+        expected.add("Clinton. Susan");
+        expected.add("Fischer. Anna");
+        expected.add("Merkel. Angela");
+
+        Assertions.assertEquals(expected, result);
     }
 
     @Test
@@ -39,7 +52,7 @@ public class BasePageTest extends BaseTest {
     public void deletePatientNoRelativesButCancelTheProcess() {
         basePage = new BasePage(driver);
         basePage.navigateToBasePage(Constraints.URL);
-        basePage.test2DeleteIcon();
+        basePage.BindenGordonDeleteIcon();
         driver.switchTo().activeElement();
         basePage.cancelButtonClickOnDeletePopUp();
 
@@ -383,8 +396,27 @@ public class BasePageTest extends BaseTest {
     @Test
     @Order(24)
     @DisplayName("AVINTY-024 Relatives are sorted in ABC order by their names")
-    @Disabled
     public void namesSortedABCOrder() {
-        //TODO
+        basePage = new BasePage(driver);
+        basePage.navigateToBasePage(Constraints.URL);
+        basePage.clickingOnPatientName("Fischer. Anna");
+        basePage.clickingOnRelativesAddOnButton("Fischer. Anna");
+        basePage.fillContactForm(Constraints.FISCHER_RELATIVE_FIRST_NAME, Constraints.FISCHER_RELATIVE_LAST_NAME,
+                Constraints.FISCHER_RELATIVE_BIRTH_DATE, Constraints.FISCHER_RELATIVE_PHONE_NUMBER, Constraints.FISCHER_RELATIVE_RELATIONSHIP);
+        basePage.clickOnSubmitButton();
+
+        List<String> result = new ArrayList<>();
+        result.add(driver.findElement(By.xpath("//*/div[7]/div/div[2]/div/div[2]/div/table/tbody[1]/tr/td[2]")).getText());
+        result.add(driver.findElement(By.xpath("//*/div[7]/div/div[2]/div/div[2]/div/table/tbody[2]/tr/td[2]")).getText());
+        result.add(driver.findElement(By.xpath("//*/div[7]/div/div[2]/div/div[2]/div/table/tbody[3]/tr/td[2]")).getText());
+        result.add(driver.findElement(By.xpath("//*/div[7]/div/div[2]/div/div[2]/div/table/tbody[4]/tr/td[2]")).getText());
+
+        List<String> expected = new ArrayList<>();
+        expected.add("Alber Atlas");
+        expected.add("Carter Donald");
+        expected.add("Clinton Hillary");
+        expected.add("Tusk Peter");
+
+        Assertions.assertEquals(expected, result);
     }
 }

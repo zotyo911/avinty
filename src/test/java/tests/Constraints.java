@@ -30,6 +30,13 @@ public class Constraints {
     public static final String INVALID_BIRTH_DATE_3 = "ab-01-cdef";
     public static final String INVALID_PHONE_NUMBER = "123456789,12";
 
+    //Fischer. Anna new relative's valid datas
+    public static final String FISCHER_RELATIVE_FIRST_NAME = "Albert";
+    public static final String FISCHER_RELATIVE_LAST_NAME = "Atlas";
+    public static final String FISCHER_RELATIVE_BIRTH_DATE = "06-11-1971";
+    public static final String FISCHER_RELATIVE_PHONE_NUMBER = "+36701234567";
+    public static final String FISCHER_RELATIVE_RELATIONSHIP = "Sibling";
+
     //Smith John /TEST/ datas
     public static final String TEST_NAME = "Smith. John";
 

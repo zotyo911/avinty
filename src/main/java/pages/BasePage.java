@@ -6,20 +6,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class BasePage {
     WebDriver driver;
-    WebDriverWait wait;
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
     }
-
-
-    private final By DELETE_ICON_GROUP = By.xpath("//*[contains(@class, 'btn btn-danger')]");
-    private final By PATIENT_DETAILS_TABLE_GROUPS = By.xpath("//*[contains(@class, 'list-group-item')]");
-    private final By PATIENTS_NEW_CONTACT_ADD_ON_BUTTON_GROUP = By.xpath("//*[contains(@class, 'btn btn-secondary btn-block btn-lg')]");
 
     //Patient's new contact add on buttons WebElements
     private final By SMITH_JOHN_NEW_CONTACT_ADD_ON_BUTTON = By.xpath("//*[contains(@class, 'btn btn-secondary btn-block btn-lg') and contains(@title, 'Smith')]");
@@ -32,18 +27,13 @@ public class BasePage {
     private final By ANGELA_MERKEL_NEW_CONTACT_ADD_ON_BUTTON = By.xpath("//*[contains(@class, 'btn btn-secondary btn-block btn-lg') and contains(@title, 'Merkel')]");
 
     //WebElements of buttons and icons
-    private final By DELETE_POPUP = By.xpath("//*[contains(@class, 'modal-content')]");
-    private final By EDIT_BUTTON_GROUP = By.xpath("//*[contains(@class, 'btn btn-primary') and contains(text(), 'edit')]");
     private final By OK_BUTTON_ON_DELETE_CONFIRMATION_POP_UP = By.xpath("//*[contains(@class, 'btn btn-primary') and contains(text(), 'Ok')]");
     private final By CANCEL_BUTTON_ON_DELETE_CONFIRMATION_POP_UP = By.xpath("//*[contains(@class, 'btn btn-primary') and contains(text(), 'Cancel')]");
     private final By KAMALA_HARRIS_EDIT_BUTTON = By.xpath("//*/div[3]/div/div[2]/div/div[2]/div/table/tbody/tr/td[5]/button[1]");
-    private final By DELETE_ICONS_GROUP = By.xpath("//*[contains(@class, 'btn btn-primary') and contains(text(), 'X')]");
-    private final By TEST_DELETE_ICON = By.xpath("//*/p/div/div[1]/div/div[1]/div[2]/button");
-    private final By TEST2_DELETE_ICON = By.xpath("//*/div[2]/div/div[1]/div[2]/button");
+    private final By BINDEN_DELETE_ICON = By.xpath("//*/div[2]/div/div[1]/div[2]/button");
     private final By TUSK_PETER_DELETE_ICON = By.xpath("//*/div[7]/div/div[2]/div/div[2]/div/table/tbody[1]/tr/td[5]/button[2]");
 
     //new contact form and edit form WebElements
-    private final By NEW_CONTACT_MODAL_BOX = By.xpath("//*[contains(@class, 'modal-body')]");
     private final By SUBMIT_BUTTON = By.xpath("//*[contains(@class, 'btn btn-primary') and contains(text(), 'Submit')]");
     private final By CANCEL_BUTTON = By.xpath("//*[contains(@class, 'btn btn-primary') and contains(text(), 'Cancel')]");
     private final By FIRST_NAME = By.id("formGridEmail");
@@ -53,9 +43,7 @@ public class BasePage {
     private final By RELATIONSHIP = By.id("formGridState");
 
     private final By PATIENT_NAMES_GROUP = By.xpath("//*[contains(@style, 'display: block;')]");
-    private final By PATIENT_NAME_BINDEN_GORDON = By.xpath("//*[contains(@style, 'display: block;') and contains(text(), 'Binden. Gordon')]");
     private final By RELATIVES_TABLES_GROUP = By.xpath("//*[contains(@class, 'table-responsive')]/table/thead/tr");
-    private final By RELATIVES_TABLES_GROUP_TBODY = By.xpath("//*[contains(@class, 'table-responsive')]/table/tbody/tr/td");
 
     //this method navigates to base test page
     public void navigateToBasePage(String url) {
@@ -121,8 +109,8 @@ public class BasePage {
         driver.findElement(KAMALA_HARRIS_EDIT_BUTTON).click();
     }
 
-    public void test2DeleteIcon() {
-        driver.findElement(TEST2_DELETE_ICON).click();
+    public void BindenGordonDeleteIcon() {
+        driver.findElement(BINDEN_DELETE_ICON).click();
     }
 
     public void tuskPeterDeleteIcon() {
@@ -152,4 +140,16 @@ public class BasePage {
         return text;
     }
 
+    //this function store the patients name's into an ArrayList
+    public List<String> getAllNames() {
+        List<String> allNames = new ArrayList<>();
+        List<WebElement> patients = driver.findElements(PATIENT_NAMES_GROUP);
+        for (WebElement name : patients) {
+            String patient = name.getText();
+            allNames.add(patient);
+        }
+        return allNames;
+    }
 }
+
+
