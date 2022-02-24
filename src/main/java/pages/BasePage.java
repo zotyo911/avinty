@@ -17,11 +17,11 @@ public class BasePage {
     }
 
 
-    private final By DELETE_ICON = By.xpath("//*[contains(@class, 'btn btn-danger')]");
+    private final By DELETE_ICON_GROUP = By.xpath("//*[contains(@class, 'btn btn-danger')]");
     private final By PATIENT_DETAILS_TABLE_GROUPS = By.xpath("//*[contains(@class, 'list-group-item')]");
     private final By PATIENTS_NEW_CONTACT_ADD_ON_BUTTON_GROUP = By.xpath("//*[contains(@class, 'btn btn-secondary btn-block btn-lg')]");
 
-    //Patient's new contact add on buttons
+    //Patient's new contact add on buttons WebElements
     private final By SMITH_JOHN_NEW_CONTACT_ADD_ON_BUTTON = By.xpath("//*[contains(@class, 'btn btn-secondary btn-block btn-lg') and contains(@title, 'Smith')]");
     private final By BINDEN_GORDON_NEW_CONTACT_ADD_ON_BUTTON = By.xpath("//*[contains(@class, 'btn btn-secondary btn-block btn-lg') and contains(@title, 'Binden')]");
     private final By TRUMP_PETER_NEW_CONTACT_ADD_ON_BUTTON = By.xpath("//*[contains(@class, 'btn btn-secondary btn-block btn-lg') and contains(@title, 'Trump')]");
@@ -31,9 +31,16 @@ public class BasePage {
     private final By FISCHER_ANNA_NEW_CONTACT_ADD_ON_BUTTON = By.xpath("//*[contains(@class, 'btn btn-secondary btn-block btn-lg') and contains(@title, 'Fischer')]");
     private final By ANGELA_MERKEL_NEW_CONTACT_ADD_ON_BUTTON = By.xpath("//*[contains(@class, 'btn btn-secondary btn-block btn-lg') and contains(@title, 'Merkel')]");
 
+    //WebElements of buttons and icons
+    private final By DELETE_POPUP = By.xpath("//*[contains(@class, 'modal-content')]");
     private final By EDIT_BUTTON_GROUP = By.xpath("//*[contains(@class, 'btn btn-primary') and contains(text(), 'edit')]");
+    private final By OK_BUTTON_ON_DELETE_CONFIRMATION_POP_UP = By.xpath("//*[contains(@class, 'btn btn-primary') and contains(text(), 'Ok')]");
+    private final By CANCEL_BUTTON_ON_DELETE_CONFIRMATION_POP_UP = By.xpath("//*[contains(@class, 'btn btn-primary') and contains(text(), 'Cancel')]");
     private final By KAMALA_HARRIS_EDIT_BUTTON = By.xpath("//*/div[3]/div/div[2]/div/div[2]/div/table/tbody/tr/td[5]/button[1]");
-    private final By DELETE_BUTTON_GROUP = By.xpath("//*[contains(@class, 'btn btn-primary') and contains(text(), 'X')]");
+    private final By DELETE_ICONS_GROUP = By.xpath("//*[contains(@class, 'btn btn-primary') and contains(text(), 'X')]");
+    private final By TEST_DELETE_ICON = By.xpath("//*/p/div/div[1]/div/div[1]/div[2]/button");
+    private final By TEST2_DELETE_ICON = By.xpath("//*/div[2]/div/div[1]/div[2]/button");
+    private final By TUSK_PETER_DELETE_ICON = By.xpath("//*/div[7]/div/div[2]/div/div[2]/div/table/tbody[1]/tr/td[5]/button[2]");
 
     //new contact form and edit form WebElements
     private final By NEW_CONTACT_MODAL_BOX = By.xpath("//*[contains(@class, 'modal-body')]");
@@ -46,9 +53,11 @@ public class BasePage {
     private final By RELATIONSHIP = By.id("formGridState");
 
     private final By PATIENT_NAMES_GROUP = By.xpath("//*[contains(@style, 'display: block;')]");
+    private final By PATIENT_NAME_BINDEN_GORDON = By.xpath("//*[contains(@style, 'display: block;') and contains(text(), 'Binden. Gordon')]");
     private final By RELATIVES_TABLES_GROUP = By.xpath("//*[contains(@class, 'table-responsive')]/table/thead/tr");
     private final By RELATIVES_TABLES_GROUP_TBODY = By.xpath("//*[contains(@class, 'table-responsive')]/table/tbody/tr/td");
 
+    //this method navigates to base test page
     public void navigateToBasePage(String url) {
         driver.get(url);
     }
@@ -85,6 +94,7 @@ public class BasePage {
         }
     }
 
+    //this method fill in and/or modifies relative's personal datas
     public void fillContactForm(String first, String last, String birth, String phone, String relationship) {
         driver.findElement(FIRST_NAME).clear();
         driver.findElement(FIRST_NAME).sendKeys(first);
@@ -98,6 +108,7 @@ public class BasePage {
         selectList.selectByVisibleText(relationship);
     }
 
+    //button click methods
     public void clickOnSubmitButton() {
         driver.findElement(SUBMIT_BUTTON).click();
     }
@@ -110,27 +121,24 @@ public class BasePage {
         driver.findElement(KAMALA_HARRIS_EDIT_BUTTON).click();
     }
 
-    public void patientRelativesTableContent() {
-        //TODO
+    public void test2DeleteIcon() {
+        driver.findElement(TEST2_DELETE_ICON).click();
     }
 
-    public void deletePatientNoRelatives() {
-        List<WebElement> ListOfPatientNames = driver.findElements(RELATIVES_TABLES_GROUP_TBODY);
-        for (WebElement names : ListOfPatientNames) {
-        /*    names.click();
-            List<WebElement> ListOfRelatives = driver.findElements(RELATIVES_TABLES_GROUP_TBODY);
-            for (WebElement tags : ListOfRelatives) {*/
-                String tag = names.getText();
-                if (tag.equals("")) {
-                    driver.findElement(DELETE_BUTTON_GROUP).click();
-                }/* else {
-                    break;
-                }*/
-            }
-        }
-    //}
+    public void tuskPeterDeleteIcon() {
+        driver.findElement(TUSK_PETER_DELETE_ICON).click();
+    }
 
-    public String validateTableColumsnames() {
+    public void cancelButtonClickOnDeletePopUp() {
+        driver.findElement(CANCEL_BUTTON_ON_DELETE_CONFIRMATION_POP_UP).click();
+    }
+
+    public void okButtonClickOnDeletePopUp() {
+        driver.findElement(OK_BUTTON_ON_DELETE_CONFIRMATION_POP_UP).click();
+    }
+
+    //this function validates the headers of patient's relatives table
+    public String validateTableColumsNames() {
         List<WebElement> relativesTableHeader = driver.findElements(RELATIVES_TABLES_GROUP);
         String text = "";
         if (relativesTableHeader.size() > 0) {
@@ -143,19 +151,5 @@ public class BasePage {
         }
         return text;
     }
-
-
-    public void deletePatient() {
-        //TODO
-    }
-
-    public void cancelPatientDelete() {
-        //TODO
-    }
-
-    public void editRelativesdata(){
-        //TODO
-    }
-
 
 }

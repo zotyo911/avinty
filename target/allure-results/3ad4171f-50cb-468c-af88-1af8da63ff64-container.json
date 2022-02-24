@@ -1,0 +1,1 @@
+{"uuid":"3ad4171f-50cb-468c-af88-1af8da63ff64","name":"AVINTY-005 Delete a relative","children":["645a47fa-a7fc-41ec-acbb-bbdb2a1b5ee3"],"befores":[{"name":"SetDriver","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1645708030180,"stop":1645708032357}],"afters":[],"links":[],"start":1645708030087,"stop":1645708033655}

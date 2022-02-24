@@ -11,72 +11,88 @@ public class BasePageTest extends BaseTest {
 
     @Test
     @Order(1)
-    @DisplayName("Testing test enviroment is ready. Navigate to BasePage")
-    public void goToLandingPage() {
-        basePage = new BasePage(driver);
-        basePage.navigateToBasePage(Constraints.URL);
-
-        Assertions.assertTrue(driver.findElement(By.xpath("//*[contains(text(), 'patients')]")).isDisplayed());
-    }
-
-    @Test
-    @Order(2)
     @DisplayName("AVINTY-001 Clicking on a patient name")
     public void clickingOnPatientName() {
         basePage = new BasePage(driver);
         basePage.navigateToBasePage(Constraints.URL);
-        basePage.clickingOnPatientName(Constraints.SMITH_JOHN);
+        basePage.clickingOnPatientName("Smith. John");
 
         Assertions.assertTrue(driver.findElement(By.xpath("//*[contains(@class, 'table-responsive')]")).isEnabled());
     }
 
     @Test
-    @Order(3)
+    @Order(2)
     @DisplayName("AVINTY-002 Delete patient who has no relative")
-    @Disabled
     public void deletePatientNoRelatives() {
         basePage = new BasePage(driver);
         basePage.navigateToBasePage(Constraints.URL);
-        basePage.clickingOnPatientName("Pence. Boris");
-        basePage.deletePatientNoRelatives();
+        basePage.test2DeleteIcon();
+        driver.switchTo().activeElement();
+        basePage.okButtonClickOnDeletePopUp();
 
-     //   Assertions.assertTrue(driver.findElement(By.xpath("//*[contains(@class, 'table-responsive')]")).isEnabled());
+      //  Assertions.assertFalse(driver.findElement(By.xpath("//*[contains(@style, 'display: block;') and contains(text(), 'Binden. Gordon')]")).isEnabled());
+    }
+
+    @Test
+    @Order(3)
+    @DisplayName("AVINTY-003 Delete patient who has no relatives but cancel the progress at the end")
+    public void deletePatientNoRelativesButCancelTheProcess() {
+        basePage = new BasePage(driver);
+        basePage.navigateToBasePage(Constraints.URL);
+        basePage.test2DeleteIcon();
+        driver.switchTo().activeElement();
+        basePage.cancelButtonClickOnDeletePopUp();
+
+        Assertions.assertTrue(driver.findElement(By.xpath("//*[contains(@style, 'display: block;') and contains(text(), 'Binden. Gordon')]")).isEnabled());
     }
 
     @Test
     @Order(4)
-    @DisplayName("AVINTY-003 Delete patient who has no relatives but cancel the progress at the end")
-    @Disabled
-    public void deletePatientNoRelativesButCancelTheProcess() {
-        //TODO
+    @DisplayName("AVINTY-004 Delete patient who has relatives")
+    public void deletePatientWithRelatives() {
+        basePage = new BasePage(driver);
+        basePage.navigateToBasePage(Constraints.URL);
+
+        Assertions.assertFalse(driver.findElement(By.xpath("//*/p/div/div[1]/div/div[1]/div[2]/button")).isEnabled());
     }
 
     @Test
     @Order(5)
-    @DisplayName("AVINTY-004 Delete patient who has relatives")
-    @Disabled
-    public void deletePatientWithRelatives() {
-        //TODO
+    @DisplayName("AVINTY-005 Delete a relative")
+    public void deleteARelative() {
+        basePage = new BasePage(driver);
+        basePage.navigateToBasePage(Constraints.URL);
+        basePage.clickingOnPatientName("Fischer. Anna");
+        basePage.tuskPeterDeleteIcon();
+        driver.switchTo().activeElement();
+        basePage.okButtonClickOnDeletePopUp();
+
+        String expected = "Clinton Hillary";
+        String actual = driver.findElement(By.xpath("//*/div[7]/div/div[2]/div/div[2]/div/table/tbody[1]/tr/td[2]")).getText();
+
+        Assertions.assertEquals(expected, actual);
+
     }
 
     @Test
     @Order(6)
-    @DisplayName("AVINTY-005 Delete a relative")
-    @Disabled
-    public void deleteARelative() {
-        //TODO
+    @DisplayName("AVINTY-006 Delete a relative, but cancel the process")
+    public void deleteARelativeButCancelTheProcess() {
+        basePage = new BasePage(driver);
+        basePage.navigateToBasePage(Constraints.URL);
+        basePage.clickingOnPatientName("Fischer. Anna");
+        basePage.tuskPeterDeleteIcon();
+        driver.switchTo().activeElement();
+        basePage.cancelButtonClickOnDeletePopUp();
+
+        String expected = "Tusk Peter";
+        String actual = driver.findElement(By.xpath("//*/div[7]/div/div[2]/div/div[2]/div/table/tbody[1]/tr/td[2]")).getText();
+
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
     @Order(7)
-    @DisplayName("AVINTY-006 Delete a relative, but cancel the process")
-    @Disabled
-    public void deleteARelativeButCancelTheProcess() {
-        //TODO
-    }
-
-    @Test
-    @Order(8)
     @DisplayName("AVINTY-007 Check that relatives list wiew table headlines")
     public void validateRelativesTableHeader() {
         basePage = new BasePage(driver);
@@ -84,25 +100,25 @@ public class BasePageTest extends BaseTest {
         basePage.clickingOnPatientName("Pence. Boris");
 
         String expected = "Id Name Birth date Relationship";
-        String actual = basePage.validateTableColumsnames();
+        String actual = basePage.validateTableColumsNames();
 
         Assertions.assertEquals(expected, actual);
     }
 
     @Test
-    @Order(9)
+    @Order(8)
     @DisplayName("AVINTY-008 Check add on relative button")
     public void addOnRelativesButton() {
         basePage = new BasePage(driver);
         basePage.navigateToBasePage(Constraints.URL);
-        basePage.clickingOnPatientName(Constraints.PATIENT_NAME);
+        basePage.clickingOnPatientName("Merkel. Angela");
         basePage.clickingOnRelativesAddOnButton(Constraints.PATIENT_NAME);
 
         Assertions.assertTrue(driver.findElement(By.xpath("//*[contains(@class, 'modal-body')]")).isDisplayed());
     }
 
     @Test
-    @Order(10)
+    @Order(9)
     @DisplayName("AVINTY-009 Add on relative (all datas are valid)")
     public void addOnRelativesAllDatasValid() {
         basePage = new BasePage(driver);
@@ -120,7 +136,7 @@ public class BasePageTest extends BaseTest {
     }
 
     @Test
-    @Order(11)
+    @Order(10)
     @DisplayName("AVINTY-010 Add on relative (all datas are valid and phone number too)")
     public void addOnRelativesAllDatasValidAndPhoneNumerToo() {
         basePage = new BasePage(driver);
@@ -138,7 +154,7 @@ public class BasePageTest extends BaseTest {
     }
 
     @Test
-    @Order(12)
+    @Order(11)
     @DisplayName("AVINTY-011 Add on relative (all datas are valid but phone number is invalid)")
     public void addOnRelativesPhoneNumerInvalid() {
         basePage = new BasePage(driver);
@@ -153,7 +169,7 @@ public class BasePageTest extends BaseTest {
     }
 
     @Test
-    @Order(13)
+    @Order(12)
     @DisplayName("AVINTY-012 Add on relative (all datas are valid but birth date is invalid)")
     public void addOnRelativesBirthDateInvalid() {
         basePage = new BasePage(driver);
@@ -168,7 +184,7 @@ public class BasePageTest extends BaseTest {
     }
 
     @Test
-    @Order(14)
+    @Order(13)
     @DisplayName("AVINTY-013 Add on relative (all datas valid), but cancel the progress")
     public void addOnRelativesCancelTheProgress() {
         basePage = new BasePage(driver);
@@ -183,7 +199,7 @@ public class BasePageTest extends BaseTest {
     }
 
     @Test
-    @Order(15)
+    @Order(14)
     @DisplayName("AVINTY-014 Add on relative but leave \"First name\" field empty")
     public void addOnRelativesFirstNameFieldEmpty() {
         basePage = new BasePage(driver);
@@ -201,7 +217,7 @@ public class BasePageTest extends BaseTest {
     }
 
     @Test
-    @Order(16)
+    @Order(15)
     @DisplayName("AVINTY-015 Add on relative but leave \"Last name\" field empty")
     public void addOnRelativesLastNameFieldEmpty() {
         basePage = new BasePage(driver);
@@ -219,7 +235,7 @@ public class BasePageTest extends BaseTest {
     }
 
     @Test
-    @Order(17)
+    @Order(16)
     @DisplayName("AVINTY-016 Add on relative but leave \"Birth date\" field empty")
     public void addOnRelativesBirthDateFieldEmpty() {
         basePage = new BasePage(driver);
@@ -238,7 +254,7 @@ public class BasePageTest extends BaseTest {
     }
 
     @Test
-    @Order(18)
+    @Order(17)
     @DisplayName("AVINTY-017 Add on relatives but leave \"Phone number\" field empty")
     public void addOnRelativesPhoneNumberFieldEmpty() {
         basePage = new BasePage(driver);
@@ -258,7 +274,7 @@ public class BasePageTest extends BaseTest {
     }
 
     @Test
-    @Order(19)
+    @Order(18)
     @DisplayName("AVINTY-018 Edit relative datas (all datas are valid)")
     public void editRelativeDatasValid() {
         basePage = new BasePage(driver);
@@ -280,7 +296,7 @@ public class BasePageTest extends BaseTest {
     }
 
     @Test
-    @Order(20)
+    @Order(19)
     @DisplayName("AVINTY-019 Edit relative datas, but cancel the progress")
     public void editRelativeDatasCancelTheProcess() {
         basePage = new BasePage(driver);
@@ -299,7 +315,7 @@ public class BasePageTest extends BaseTest {
     }
 
     @Test
-    @Order(21)
+    @Order(20)
     @DisplayName("AVINTY-020 Edit relative datas (all datas and phone number valid)")
     public void editRelativeDatasPhoneNumberValid() {
         basePage = new BasePage(driver);
@@ -317,7 +333,7 @@ public class BasePageTest extends BaseTest {
     }
 
     @Test
-    @Order(22)
+    @Order(21)
     @DisplayName("AVINTY-021 Edit relative datas (all datas valid but phone number invalid)")
     public void editRelativeDatasPhoneNumberInvalid() {
         basePage = new BasePage(driver);
@@ -332,7 +348,7 @@ public class BasePageTest extends BaseTest {
     }
 
     @Test
-    @Order(23)
+    @Order(22)
     @DisplayName("AVINTY-022 Edit relative datas, modify the birt date to invalid date")
     public void editRelativeDatasBirthDateInvalid() {
         basePage = new BasePage(driver);
@@ -347,7 +363,7 @@ public class BasePageTest extends BaseTest {
     }
 
     @Test
-    @Order(24)
+    @Order(23)
     @DisplayName("AVINTY-023 Edit relative datas, modify the Relationship dropdown")
     public void editRelativeDatasModifyRelationshipDropdown() {
         basePage = new BasePage(driver);
@@ -365,12 +381,10 @@ public class BasePageTest extends BaseTest {
     }
 
     @Test
-    @Order(25)
+    @Order(24)
     @DisplayName("AVINTY-024 Relatives are sorted in ABC order by their names")
     @Disabled
     public void namesSortedABCOrder() {
         //TODO
     }
-
-
 }
