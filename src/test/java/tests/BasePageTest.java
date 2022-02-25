@@ -259,7 +259,7 @@ public class BasePageTest extends BaseTest {
                 Constraints.RELATIONSHIP);
         basePage.clickOnSubmitButton();
 
-        Assertions.assertTrue(!driver.findElement(By.xpath("//*/table/tbody[2]/tr/td[2]")).isDisplayed());gi
+        Assertions.assertTrue(!driver.findElement(By.xpath("//*/table/tbody[2]/tr/td[2]")).isDisplayed());
     }
 
     @Test
