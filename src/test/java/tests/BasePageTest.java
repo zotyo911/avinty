@@ -259,11 +259,7 @@ public class BasePageTest extends BaseTest {
                 Constraints.RELATIONSHIP);
         basePage.clickOnSubmitButton();
 
-        String expected = "Wrong format";
-        String actual = driver.findElement(By.xpath("//*[contains(@class, 'invalid-feedback') and contains(text(), 'Wrong format')]")).getText();
-
-        Assertions.assertTrue(!driver.findElement(By.xpath("//*/table/tbody[2]/tr/td[2]")).isDisplayed());
-        Assertions.assertEquals(expected, actual);
+        Assertions.assertTrue(!driver.findElement(By.xpath("//*/table/tbody[2]/tr/td[2]")).isDisplayed());gi
     }
 
     @Test
