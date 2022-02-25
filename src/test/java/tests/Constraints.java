@@ -1,11 +1,16 @@
 package tests;
 
+import java.util.List;
+
 public class Constraints {
     //homepage url
     public static final String URL = "http://t35t3r.testhosting.hu/";
 
     //patient name
     public static final String PATIENT_NAME = "Merkel. Angela";
+
+    //Smith John Patient/TEST/ datas
+    public static final String TEST_NAME = "Smith. John";
 
     //add on relatives datas
     public static final String PATIENT_NAME_ADD_ON = "Trump. Peter";
@@ -21,10 +26,6 @@ public class Constraints {
     public static final String PHONE_NUMBER_EMPTY = "";
     public static final String RELATIONSHIP = "Child";
     public static final String PHONE_NUMBER_2 = "+3672123456";
-    public static final String FIRST_NAME_MODIFIED = "Luke";
-    public static final String BIRTH_DATE_MODIFIED = "12-06-1993";
-    public static final String PHONE_NUMBER_LUKE = "+36301234568";
-    public static final String PHONE_NUMBER_MODIFIED = "+36301234567";
     public static final String INVALID_BIRTH_DATE = "31-02-1995";
     public static final String INVALID_BIRTH_DATE_2 = "99-99-9999";
     public static final String INVALID_BIRTH_DATE_3 = "ab-01-cdef";
@@ -36,9 +37,6 @@ public class Constraints {
     public static final String FISCHER_RELATIVE_BIRTH_DATE = "06-11-1971";
     public static final String FISCHER_RELATIVE_PHONE_NUMBER = "+36701234567";
     public static final String FISCHER_RELATIVE_RELATIONSHIP = "Sibling";
-
-    //Smith John /TEST/ datas
-    public static final String TEST_NAME = "Smith. John";
 
     //Kamala Harris /TEST1/ datas
     public static final String TEST1_NAME = "Kamala. Harris";
@@ -52,7 +50,5 @@ public class Constraints {
     public static final String TEST1_INVALID_PHONE_NUMBER = "123456789012";
     public static final String TEST1_RELATIONSHIP = "Child";
     public static final String TEST1_MODIFIED_RELATIONSHIP = "Spouse";
-
-
 
 }

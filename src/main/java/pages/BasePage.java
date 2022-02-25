@@ -50,7 +50,7 @@ public class BasePage {
         driver.get(url);
     }
 
-    //find the patient we would like to find, and click on his/her name
+    //find the patient, and click on his/her name
     public void clickingOnPatientName(String name) {
         List<WebElement> ListOfPatientNames = driver.findElements(PATIENT_NAMES_GROUP);
             for (WebElement names : ListOfPatientNames) {
@@ -82,7 +82,7 @@ public class BasePage {
         }
     }
 
-    //this method fill in and/or modifies relative's personal datas
+    //this method fill or modifies relative's personal datas
     public void fillContactForm(String first, String last, String birth, String phone, String relationship) {
         driver.findElement(FIRST_NAME).clear();
         driver.findElement(FIRST_NAME).sendKeys(first);
@@ -140,7 +140,7 @@ public class BasePage {
         return text;
     }
 
-    //this function store the patients name's into an ArrayList
+    //this function stores the patients name's into an ArrayList
     public List<String> getAllNames() {
         List<String> allNames = new ArrayList<>();
         List<WebElement> patients = driver.findElements(PATIENT_NAMES_GROUP);
