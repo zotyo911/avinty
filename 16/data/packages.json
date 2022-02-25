@@ -1,0 +1,321 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "tests.BasePageTest",
+    "children" : [ {
+      "name" : "clickingOnPatientName",
+      "uid" : "fa0174b16ad1c256",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645782109529,
+        "stop" : 1645782121835,
+        "duration" : 12306
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deletePatientNoRelatives",
+      "uid" : "5c5051da5eec814e",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645782121945,
+        "stop" : 1645782123575,
+        "duration" : 1630
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deletePatientNoRelativesButCancelTheProcess",
+      "uid" : "3aa014e32d2ab19d",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645782123578,
+        "stop" : 1645782125101,
+        "duration" : 1523
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deletePatientWithRelatives",
+      "uid" : "689ca09e4e935112",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645782125106,
+        "stop" : 1645782126455,
+        "duration" : 1349
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deleteARelative",
+      "uid" : "d7d95d048f72a9f0",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645782126464,
+        "stop" : 1645782128055,
+        "duration" : 1591
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "deleteARelativeButCancelTheProcess",
+      "uid" : "dd5ad9abbc6fe8e3",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645782128058,
+        "stop" : 1645782129634,
+        "duration" : 1576
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "validateRelativesTableHeader",
+      "uid" : "8e127eb36306ed28",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645782129638,
+        "stop" : 1645782131157,
+        "duration" : 1519
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addOnRelativesButton",
+      "uid" : "5c6df8a56f1672a4",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645782131161,
+        "stop" : 1645782132781,
+        "duration" : 1620
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addOnRelativesAllDatasValid",
+      "uid" : "ceef253a621c20dc",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645782132784,
+        "stop" : 1645782134933,
+        "duration" : 2149
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addOnRelativesAllDatasValidAndPhoneNumerToo",
+      "uid" : "12a812d918c0a02d",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645782134936,
+        "stop" : 1645782137138,
+        "duration" : 2202
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addOnRelativesPhoneNumerInvalid",
+      "uid" : "781b1d32d2285cf5",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645782137141,
+        "stop" : 1645782139278,
+        "duration" : 2137
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addOnRelativesBirthDateInvalid",
+      "uid" : "1bff4808a0072da6",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645782139281,
+        "stop" : 1645782141478,
+        "duration" : 2197
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addOnRelativesCancelTheProgress",
+      "uid" : "e73707ba683248ac",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645782141481,
+        "stop" : 1645782143616,
+        "duration" : 2135
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addOnRelativesFirstNameFieldEmpty",
+      "uid" : "84c204af9764808b",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645782143619,
+        "stop" : 1645782145729,
+        "duration" : 2110
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addOnRelativesLastNameFieldEmpty",
+      "uid" : "e0009ca884fdd83d",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645782145731,
+        "stop" : 1645782147855,
+        "duration" : 2124
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addOnRelativesBirthDateFieldEmpty",
+      "uid" : "b672e7e92d99d32f",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1645782147858,
+        "stop" : 1645782149998,
+        "duration" : 2140
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addOnRelativesPhoneNumberFieldEmpty",
+      "uid" : "457ad27231e06600",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645782150004,
+        "stop" : 1645782152212,
+        "duration" : 2208
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "editRelativeDatasValid",
+      "uid" : "aa909206c33ba306",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645782152215,
+        "stop" : 1645782154232,
+        "duration" : 2017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "editRelativeDatasCancelTheProcess",
+      "uid" : "a828c81fd615df1",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645782154234,
+        "stop" : 1645782156238,
+        "duration" : 2004
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "editRelativeDatasPhoneNumberValid",
+      "uid" : "1925fc77670cd87c",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645782156247,
+        "stop" : 1645782158249,
+        "duration" : 2002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "editRelativeDatasPhoneNumberInvalid",
+      "uid" : "2c335ef3d39946fe",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645782158251,
+        "stop" : 1645782160306,
+        "duration" : 2055
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "editRelativeDatasBirthDateInvalid",
+      "uid" : "c9f1224cd6c09b2b",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645782160309,
+        "stop" : 1645782162314,
+        "duration" : 2005
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "editRelativeDatasModifyRelationshipDropdown",
+      "uid" : "9e86245541a3f133",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645782162316,
+        "stop" : 1645782164370,
+        "duration" : 2054
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "namesSortedABCOrder",
+      "uid" : "388c5702b3c7c09f",
+      "parentUid" : "42b6f3701da41a321157b3a721f52fdd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1645782164372,
+        "stop" : 1645782166633,
+        "duration" : 2261
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.BasePageTest"
+  } ],
+  "name" : "packages"
+}

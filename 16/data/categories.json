@@ -1,0 +1,218 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected: <false> but was: <true>",
+      "children" : [ {
+        "name" : "AVINTY-004 Delete patient who has relatives",
+        "uid" : "689ca09e4e935112",
+        "parentUid" : "c90596964ef741fb1dcdbdecc98d55d4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645782125106,
+          "stop" : 1645782126455,
+          "duration" : 1349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c90596964ef741fb1dcdbdecc98d55d4"
+    }, {
+      "name" : "expected: <Id Name Birth date Relationship> but was: <Id Name Birth date valami>",
+      "children" : [ {
+        "name" : "AVINTY-007 Check that relatives list wiew table headlines",
+        "uid" : "8e127eb36306ed28",
+        "parentUid" : "2b94661226815b1ddeb02d11491ca747",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645782129638,
+          "stop" : 1645782131157,
+          "duration" : 1519
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b94661226815b1ddeb02d11491ca747"
+    }, {
+      "name" : "expected: <Tom Deyes> but was: <>",
+      "children" : [ {
+        "name" : "AVINTY-010 Add on relative (all datas are valid and phone number too)",
+        "uid" : "12a812d918c0a02d",
+        "parentUid" : "dcc2e935b41b669c7fb1362e75daf295",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645782134936,
+          "stop" : 1645782137138,
+          "duration" : 2202
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dcc2e935b41b669c7fb1362e75daf295"
+    }, {
+      "name" : "expected: <true> but was: <false>",
+      "children" : [ {
+        "name" : "AVINTY-011 Add on relative (all datas are valid but phone number is invalid)",
+        "uid" : "781b1d32d2285cf5",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645782137141,
+          "stop" : 1645782139278,
+          "duration" : 2137
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-012 Add on relative (all datas are valid but birth date is invalid)",
+        "uid" : "1bff4808a0072da6",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645782139281,
+          "stop" : 1645782141478,
+          "duration" : 2197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-013 Add on relative (all datas valid), but cancel the progress",
+        "uid" : "e73707ba683248ac",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645782141481,
+          "stop" : 1645782143616,
+          "duration" : 2135
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-021 Edit relative datas (all datas valid but phone number invalid)",
+        "uid" : "2c335ef3d39946fe",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645782158251,
+          "stop" : 1645782160306,
+          "duration" : 2055
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "AVINTY-022 Edit relative datas, modify the birt date to invalid date",
+        "uid" : "c9f1224cd6c09b2b",
+        "parentUid" : "845845d2ca1b5f839f479796c2627505",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645782160309,
+          "stop" : 1645782162314,
+          "duration" : 2005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "845845d2ca1b5f839f479796c2627505"
+    }, {
+      "name" : "expected: <This field is required.> but was: <This field is requird.>",
+      "children" : [ {
+        "name" : "AVINTY-015 Add on relative but leave \"Last name\" field empty",
+        "uid" : "e0009ca884fdd83d",
+        "parentUid" : "5153718cd06af2af3233c1e662ae1ff5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645782145731,
+          "stop" : 1645782147855,
+          "duration" : 2124
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5153718cd06af2af3233c1e662ae1ff5"
+    }, {
+      "name" : "expected: <Kamala Harris> but was: <Harris Kate>",
+      "children" : [ {
+        "name" : "AVINTY-019 Edit relative datas, but cancel the progress",
+        "uid" : "a828c81fd615df1",
+        "parentUid" : "f343360db40afe97dea9faaa8b9133cd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645782154234,
+          "stop" : 1645782156238,
+          "duration" : 2004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f343360db40afe97dea9faaa8b9133cd"
+    }, {
+      "name" : "expected: <Kamala Harris> but was: <Harris Kamala>",
+      "children" : [ {
+        "name" : "AVINTY-020 Edit relative datas (all datas and phone number valid)",
+        "uid" : "1925fc77670cd87c",
+        "parentUid" : "e8e8f757f44d4f52207f782862bf09da",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645782156247,
+          "stop" : 1645782158249,
+          "duration" : 2002
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e8e8f757f44d4f52207f782862bf09da"
+    }, {
+      "name" : "expected: <[Atlas Albert, Carter Donald, Clinton Hillary, Tusk Peter]> but was: <[Tusk Peter, Clinton Hillary, Carter Donald, Atlas Albert]>",
+      "children" : [ {
+        "name" : "AVINTY-024 Relatives are sorted in ABC order by their names",
+        "uid" : "388c5702b3c7c09f",
+        "parentUid" : "9f1425221ca45a63908f2e209f906259",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645782164372,
+          "stop" : 1645782166633,
+          "duration" : 2261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f1425221ca45a63908f2e209f906259"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "stale element reference: element is not attached to the page document\n  (Session info: headless chrome=98.0.4758.102)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-73', ip: '10.1.0.103', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-1028-azure', java.version: '1.8.0_322'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /tmp/.com.google.Chrome.FxMsor}, goog:chromeOptions: {debuggerAddress: localhost:44075}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 267c4f9c28a2cb31486589d77117ba15",
+      "children" : [ {
+        "name" : "AVINTY-016 Add on relative but leave \"Birth date\" field empty",
+        "uid" : "b672e7e92d99d32f",
+        "parentUid" : "f585ba2012a3f233f0eb2deba1197e76",
+        "status" : "broken",
+        "time" : {
+          "start" : 1645782147858,
+          "stop" : 1645782149998,
+          "duration" : 2140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f585ba2012a3f233f0eb2deba1197e76"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
