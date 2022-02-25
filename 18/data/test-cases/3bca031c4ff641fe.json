@@ -1,0 +1,107 @@
+{
+  "uid" : "3bca031c4ff641fe",
+  "name" : "AVINTY-002 Delete patient who has no relative",
+  "fullName" : "tests.BasePageTest.deletePatientNoRelatives",
+  "historyId" : "1ad58577565cc5d70d4bb1e8b65585f9",
+  "time" : {
+    "start" : 1645783274409,
+    "stop" : 1645783275866,
+    "duration" : 1457
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "SetDriver",
+    "time" : {
+      "start" : 1645783274409,
+      "stop" : 1645783274694,
+      "duration" : 285
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1645783275799,
+      "stop" : 1645783275866,
+      "duration" : 67
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az83-438"
+  }, {
+    "name" : "thread",
+    "value" : "2208@fv-az83-438.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testClass",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deletePatientNoRelatives"
+  }, {
+    "name" : "suite",
+    "value" : "tests.BasePageTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "66ee031e4b49184",
+        "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/66ee031e4b49184",
+        "status" : "passed",
+        "time" : {
+          "start" : 1645782710645,
+          "stop" : 1645782712235,
+          "duration" : 1590
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "3bca031c4ff641fe.json",
+  "parameterValues" : [ ]
+}

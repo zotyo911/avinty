@@ -7,6 +7,14 @@
     "retry" : 0
   }
 }, {
+  "buildOrder" : 18,
+  "reportUrl" : "https://zotyo911.github.io/avinty/18/",
+  "reportName" : "Allure Report with history",
+  "data" : {
+    "run" : 24,
+    "retry" : 0
+  }
+}, {
   "data" : {
     "run" : 0,
     "retry" : 0

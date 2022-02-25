@@ -3,6 +3,18 @@
   "reportUrl" : "https://zotyo911.github.io/avinty/18/",
   "reportName" : "Allure Report with history",
   "data" : {
+    "failed" : 13,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 11,
+    "unknown" : 0,
+    "total" : 24
+  }
+}, {
+  "buildOrder" : 18,
+  "reportUrl" : "https://zotyo911.github.io/avinty/18/",
+  "reportName" : "Allure Report with history",
+  "data" : {
     "failed" : 14,
     "broken" : 0,
     "skipped" : 0,

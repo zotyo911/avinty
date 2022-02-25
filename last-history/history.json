@@ -1,14 +1,24 @@
 {
   "4f1358031c3d8378bc30bcd6f2a1e1ae" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "da55530b352fdf36",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/da55530b352fdf36",
+      "status" : "failed",
+      "statusDetails" : "expected: <[Atlas Albert, Carter Donald, Clinton Hillary, Tusk Peter]> but was: <[Tusk Peter, Clinton Hillary, Carter Donald, Atlas Albert]>",
+      "time" : {
+        "start" : 1645783315970,
+        "stop" : 1645783318191,
+        "duration" : 2221
+      }
+    }, {
       "uid" : "ab0d36e1aee0187e",
       "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/ab0d36e1aee0187e",
       "status" : "failed",
@@ -20,36 +30,26 @@
       }
     } ]
   },
-  "9ca2df372f923d6f71808454e7bc5101" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "961b949b9a4cf8af",
-      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/961b949b9a4cf8af",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645782714975,
-        "stop" : 1645782716546,
-        "duration" : 1571
-      }
-    } ]
-  },
   "1748525873011a46222d2c0b3884424a" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "d55066c3c12298be",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/d55066c3c12298be",
+      "status" : "failed",
+      "statusDetails" : "expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1645783291166,
+        "stop" : 1645783293287,
+        "duration" : 2121
+      }
+    }, {
       "uid" : "fb4f1de904ca9cde",
       "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/fb4f1de904ca9cde",
       "status" : "failed",
@@ -61,16 +61,269 @@
       }
     } ]
   },
-  "59bfdf91ca529d3e2bc2c192d7830080" : {
+  "3b395d98ad31b32d3d6d5f6050da938d" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "35b5001df1bc1c23",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/35b5001df1bc1c23",
+      "status" : "failed",
+      "statusDetails" : "expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1645783293290,
+        "stop" : 1645783295403,
+        "duration" : 2113
+      }
+    }, {
+      "uid" : "9ea49741a9f95b57",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/9ea49741a9f95b57",
+      "status" : "failed",
+      "statusDetails" : "expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1645782730322,
+        "stop" : 1645782732529,
+        "duration" : 2207
+      }
+    } ]
+  },
+  "34fd83c8568c3f13bd750508b317b590" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "28256becb5fbfc20",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/28256becb5fbfc20",
+      "status" : "failed",
+      "statusDetails" : "expected: <Kamala Harris> but was: <Harris Kamala>",
+      "time" : {
+        "start" : 1645783307900,
+        "stop" : 1645783309896,
+        "duration" : 1996
+      }
+    }, {
+      "uid" : "428ad20ca9725a4a",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/428ad20ca9725a4a",
+      "status" : "failed",
+      "statusDetails" : "expected: <Kamala Harris> but was: <Harris Kamala>",
+      "time" : {
+        "start" : 1645782745989,
+        "stop" : 1645782748021,
+        "duration" : 2032
+      }
+    } ]
+  },
+  "ae7c10a0584aaf493bb4926770fcf598" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "5a3da7e2e4091197",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/5a3da7e2e4091197",
+      "status" : "failed",
+      "statusDetails" : "expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1645783309899,
+        "stop" : 1645783311893,
+        "duration" : 1994
+      }
+    }, {
+      "uid" : "f8af571002a3e139",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/f8af571002a3e139",
+      "status" : "failed",
+      "statusDetails" : "expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1645782748023,
+        "stop" : 1645782750042,
+        "duration" : 2019
+      }
+    } ]
+  },
+  "cedf1181760785cabdb3af7cc6dd5411" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "c150b52395010c76",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/c150b52395010c76",
+      "status" : "failed",
+      "statusDetails" : "expected: <Tom Deyes> but was: <>",
+      "time" : {
+        "start" : 1645783286876,
+        "stop" : 1645783289029,
+        "duration" : 2153
+      }
+    }, {
+      "uid" : "9c4bfad95cd5e3bd",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/9c4bfad95cd5e3bd",
+      "status" : "failed",
+      "statusDetails" : "expected: <Tom Deyes> but was: <>",
+      "time" : {
+        "start" : 1645782723731,
+        "stop" : 1645782725953,
+        "duration" : 2222
+      }
+    } ]
+  },
+  "4bc3d79bd88155eeb5390fa7c1d2b8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "4b01a39e9a657715",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/4b01a39e9a657715",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645783303880,
+        "stop" : 1645783305883,
+        "duration" : 2003
+      }
+    }, {
+      "uid" : "f3cc0f2c57ccd6fd",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/f3cc0f2c57ccd6fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645782741885,
+        "stop" : 1645782743935,
+        "duration" : 2050
+      }
+    } ]
+  },
+  "f40c014896c9707cf457e9e5544a40b3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "1418669c45323438",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/1418669c45323438",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645783283125,
+        "stop" : 1645783284756,
+        "duration" : 1631
+      }
+    }, {
+      "uid" : "92af102c83c61f70",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/92af102c83c61f70",
+      "status" : "failed",
+      "statusDetails" : "expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1645782719690,
+        "stop" : 1645782721356,
+        "duration" : 1666
+      }
+    } ]
+  },
+  "f7d4b0b819ab5919d705d0e108a8edaa" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "3faab113931b8fca",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/3faab113931b8fca",
+      "status" : "failed",
+      "statusDetails" : "expected: <Id Name Birth date Relationship> but was: <Id Name Birth date valami>",
+      "time" : {
+        "start" : 1645783281626,
+        "stop" : 1645783283122,
+        "duration" : 1496
+      }
+    }, {
+      "uid" : "bf60ccda9bc00277",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/bf60ccda9bc00277",
+      "status" : "failed",
+      "statusDetails" : "expected: <Id Name Birth date Relationship> but was: <Id Name Birth date valami>",
+      "time" : {
+        "start" : 1645782718165,
+        "stop" : 1645782719687,
+        "duration" : 1522
+      }
+    } ]
+  },
+  "9ca2df372f923d6f71808454e7bc5101" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "beca4aea6a01fd00",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/beca4aea6a01fd00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645783278509,
+        "stop" : 1645783280080,
+        "duration" : 1571
+      }
+    }, {
+      "uid" : "961b949b9a4cf8af",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/961b949b9a4cf8af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645782714975,
+        "stop" : 1645782716546,
+        "duration" : 1571
+      }
+    } ]
+  },
+  "59bfdf91ca529d3e2bc2c192d7830080" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "3146c593d8349b8a",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/3146c593d8349b8a",
+      "status" : "failed",
+      "statusDetails" : "expected: <false> but was: <true>",
+      "time" : {
+        "start" : 1645783277272,
+        "stop" : 1645783278501,
+        "duration" : 1229
+      }
+    }, {
       "uid" : "51b884777880e6c2",
       "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/51b884777880e6c2",
       "status" : "failed",
@@ -87,11 +340,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "798da1fc240d0ad9",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/798da1fc240d0ad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645783295405,
+        "stop" : 1645783297529,
+        "duration" : 2124
+      }
+    }, {
       "uid" : "c76bfe29f6afb851",
       "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/c76bfe29f6afb851",
       "status" : "passed",
@@ -107,11 +369,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "be457c6940f21ed5",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/be457c6940f21ed5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645783284758,
+        "stop" : 1645783286874,
+        "duration" : 2116
+      }
+    }, {
       "uid" : "4b0c3e702f2e82ef",
       "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/4b0c3e702f2e82ef",
       "status" : "passed",
@@ -124,14 +395,24 @@
   },
   "37647d7226aa6f29ce2053dafdd12a74" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "f9d0e2f38b949037",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/f9d0e2f38b949037",
+      "status" : "failed",
+      "statusDetails" : "expected: <This field is required.> but was: <This field is requird.>",
+      "time" : {
+        "start" : 1645783297531,
+        "stop" : 1645783299585,
+        "duration" : 2054
+      }
+    }, {
       "uid" : "aa70433ac39de2a2",
       "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/aa70433ac39de2a2",
       "status" : "failed",
@@ -143,58 +424,25 @@
       }
     } ]
   },
-  "3b395d98ad31b32d3d6d5f6050da938d" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9ea49741a9f95b57",
-      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/9ea49741a9f95b57",
-      "status" : "failed",
-      "statusDetails" : "expected: <true> but was: <false>",
-      "time" : {
-        "start" : 1645782730322,
-        "stop" : 1645782732529,
-        "duration" : 2207
-      }
-    } ]
-  },
-  "34fd83c8568c3f13bd750508b317b590" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "428ad20ca9725a4a",
-      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/428ad20ca9725a4a",
-      "status" : "failed",
-      "statusDetails" : "expected: <Kamala Harris> but was: <Harris Kamala>",
-      "time" : {
-        "start" : 1645782745989,
-        "stop" : 1645782748021,
-        "duration" : 2032
-      }
-    } ]
-  },
   "83a5fba99d63340bad9daa140b726352" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "e4cbb7cdceb5b9f2",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/e4cbb7cdceb5b9f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645783301709,
+        "stop" : 1645783303878,
+        "duration" : 2169
+      }
+    }, {
       "uid" : "96a1b5b345e4c72c",
       "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/96a1b5b345e4c72c",
       "status" : "passed",
@@ -205,37 +453,26 @@
       }
     } ]
   },
-  "ae7c10a0584aaf493bb4926770fcf598" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f8af571002a3e139",
-      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/f8af571002a3e139",
-      "status" : "failed",
-      "statusDetails" : "expected: <true> but was: <false>",
-      "time" : {
-        "start" : 1645782748023,
-        "stop" : 1645782750042,
-        "duration" : 2019
-      }
-    } ]
-  },
   "27f62d248cee58c7c7dc0d27e11d6b11" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "7ebb107f563cbf02",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/7ebb107f563cbf02",
+      "status" : "failed",
+      "statusDetails" : "expected: <Kamala Harris> but was: <Harris Kate>",
+      "time" : {
+        "start" : 1645783305885,
+        "stop" : 1645783307898,
+        "duration" : 2013
+      }
+    }, {
       "uid" : "8194a3a8cf923044",
       "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/8194a3a8cf923044",
       "status" : "failed",
@@ -247,37 +484,25 @@
       }
     } ]
   },
-  "cedf1181760785cabdb3af7cc6dd5411" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9c4bfad95cd5e3bd",
-      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/9c4bfad95cd5e3bd",
-      "status" : "failed",
-      "statusDetails" : "expected: <Tom Deyes> but was: <>",
-      "time" : {
-        "start" : 1645782723731,
-        "stop" : 1645782725953,
-        "duration" : 2222
-      }
-    } ]
-  },
   "c01bb72dd4db1a5511afd7acf868de4" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "3298dacc1072d928",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/3298dacc1072d928",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645783313954,
+        "stop" : 1645783315968,
+        "duration" : 2014
+      }
+    }, {
       "uid" : "e3b1589dd26efdc0",
       "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/e3b1589dd26efdc0",
       "status" : "passed",
@@ -293,11 +518,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "3bca031c4ff641fe",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/3bca031c4ff641fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645783274409,
+        "stop" : 1645783275866,
+        "duration" : 1457
+      }
+    }, {
       "uid" : "66ee031e4b49184",
       "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/66ee031e4b49184",
       "status" : "passed",
@@ -308,36 +542,25 @@
       }
     } ]
   },
-  "4bc3d79bd88155eeb5390fa7c1d2b8" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "f3cc0f2c57ccd6fd",
-      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/f3cc0f2c57ccd6fd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1645782741885,
-        "stop" : 1645782743935,
-        "duration" : 2050
-      }
-    } ]
-  },
   "313417d9b8037cc7c66e630b71fc29d3" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "308625728f5fd11c",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/308625728f5fd11c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645783270677,
+        "stop" : 1645783274337,
+        "duration" : 3660
+      }
+    }, {
       "uid" : "28a1c7553318dc2b",
       "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/28a1c7553318dc2b",
       "status" : "passed",
@@ -348,37 +571,26 @@
       }
     } ]
   },
-  "f40c014896c9707cf457e9e5544a40b3" : {
+  "8b82294532e14623883c97cb2ad7c1c9" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
-      "uid" : "92af102c83c61f70",
-      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/92af102c83c61f70",
+      "uid" : "619539f75914924c",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/619539f75914924c",
       "status" : "failed",
       "statusDetails" : "expected: <true> but was: <false>",
       "time" : {
-        "start" : 1645782719690,
-        "stop" : 1645782721356,
-        "duration" : 1666
+        "start" : 1645783311895,
+        "stop" : 1645783313952,
+        "duration" : 2057
       }
-    } ]
-  },
-  "8b82294532e14623883c97cb2ad7c1c9" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
+    }, {
       "uid" : "125ed4dba07145ad",
       "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/125ed4dba07145ad",
       "status" : "failed",
@@ -392,14 +604,24 @@
   },
   "e2e221eab877410794b3bfc0168d5c90" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "2fffe6eb2eab8c96",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/2fffe6eb2eab8c96",
+      "status" : "failed",
+      "statusDetails" : "expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1645783289032,
+        "stop" : 1645783291163,
+        "duration" : 2131
+      }
+    }, {
       "uid" : "fd1d01104d9971ef",
       "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/fd1d01104d9971ef",
       "status" : "failed",
@@ -416,11 +638,20 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "bed0b74079f41ee6",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/bed0b74079f41ee6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645783280083,
+        "stop" : 1645783281617,
+        "duration" : 1534
+      }
+    }, {
       "uid" : "660de294d9f2e79c",
       "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/660de294d9f2e79c",
       "status" : "passed",
@@ -433,14 +664,24 @@
   },
   "1342166b18e8f75623d5c0dbb72f30b0" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 2,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "efe5f9863d12dd71",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/efe5f9863d12dd71",
+      "status" : "failed",
+      "statusDetails" : "expected: <true> but was: <false>",
+      "time" : {
+        "start" : 1645783299588,
+        "stop" : 1645783301700,
+        "duration" : 2112
+      }
+    }, {
       "uid" : "7608a847a364f22c",
       "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/7608a847a364f22c",
       "status" : "failed",
@@ -452,37 +693,25 @@
       }
     } ]
   },
-  "f7d4b0b819ab5919d705d0e108a8edaa" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "bf60ccda9bc00277",
-      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/bf60ccda9bc00277",
-      "status" : "failed",
-      "statusDetails" : "expected: <Id Name Birth date Relationship> but was: <Id Name Birth date valami>",
-      "time" : {
-        "start" : 1645782718165,
-        "stop" : 1645782719687,
-        "duration" : 1522
-      }
-    } ]
-  },
   "dba9b7265550a182b07b8ae1ab83f2ea" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "da3ecd50bab80109",
+      "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/da3ecd50bab80109",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645783275870,
+        "stop" : 1645783277268,
+        "duration" : 1398
+      }
+    }, {
       "uid" : "d16966a2d08787fc",
       "reportUrl" : "https://zotyo911.github.io/avinty/18//#testresult/d16966a2d08787fc",
       "status" : "passed",
